@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SPI言語ノート — 赤ペン復習アプリ</title>
+<meta name="description" content="SPI言語分野の対策問題を、ジャンル別・10問コース・全問コースで復習できる自己学習アプリ">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✎</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app" class="app">
+
+  <!-- ===================== HOME ===================== -->
+  <section id="view-home" class="view view--home">
+    <header class="home-hero">
+      <div class="home-hero__ruled" aria-hidden="true"></div>
+      <p class="home-hero__kicker">赤ペン復習ノート</p>
+      <h1 class="home-hero__title">SPI言語<span class="home-hero__title-sub">対策ノート</span></h1>
+      <p class="home-hero__lead">書き込み式の過去演習を、そのまま解き直せるように。</p>
+
+      <div class="home-stats" id="home-stats">
+        <div class="home-stats__item">
+          <span class="home-stats__num" id="stat-total">–</span>
+          <span class="home-stats__label">問題</span>
+        </div>
+        <div class="home-stats__div" aria-hidden="true"></div>
+        <div class="home-stats__item">
+          <span class="home-stats__num" id="stat-genres">7</span>
+          <span class="home-stats__label">ジャンル</span>
+        </div>
+        <div class="home-stats__div" aria-hidden="true"></div>
+        <div class="home-stats__item">
+          <span class="home-stats__num" id="stat-mastery">–</span>
+          <span class="home-stats__label">正答率</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="home-body">
+
+      <div class="section-label"><span>おまかせで解く</span></div>
+      <div class="mode-grid">
+        <button class="mode-card mode-card--accent" data-mode="random10">
+          <span class="mode-card__mark">10</span>
+          <span class="mode-card__text">
+            <span class="mode-card__title">10問コース</span>
+            <span class="mode-card__desc">全ジャンルからランダムに10問。すきま時間用。</span>
+          </span>
+        </button>
+        <button class="mode-card" data-mode="all">
+          <span class="mode-card__mark">ALL</span>
+          <span class="mode-card__text">
+            <span class="mode-card__title">全問コース</span>
+            <span class="mode-card__desc">収録している全<span id="mode-all-count">–</span>問を順に解く。</span>
+          </span>
+        </button>
+        <button class="mode-card" data-mode="weak" id="weak-mode-card" hidden>
+          <span class="mode-card__mark">✗</span>
+          <span class="mode-card__text">
+            <span class="mode-card__title">苦手問題だけ</span>
+            <span class="mode-card__desc">これまで間違えた問題（<span id="weak-count">0</span>問）を解き直す。</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="section-label"><span>ジャンルを選んで解く</span></div>
+      <div class="genre-grid" id="genre-grid"></div>
+
+      <div class="section-label"><span>これまでの記録</span></div>
+      <div class="history-panel" id="history-panel">
+        <p class="history-empty" id="history-empty">まだ記録がありません。1回解いてみましょう。</p>
+        <div class="history-bars" id="history-bars" hidden></div>
+        <button class="link-btn" id="reset-history-btn" hidden>記録をリセット</button>
+      </div>
+
+      <footer class="home-footer">
+        <p>このノートは、あなた専用の演習ログをブラウザ内（localStorage）だけに保存します。他の端末とは共有されません。</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- ===================== GENRE PICKER (count select) ===================== -->
+  <section id="view-genre" class="view view--genre" hidden>
+    <header class="sub-header">
+      <button class="back-btn" data-back="home" aria-label="戻る">←</button>
+      <h2 id="genre-picker-title">ジャンル</h2>
+    </header>
+    <div class="genre-picker-body">
+      <p class="genre-picker-desc" id="genre-picker-desc"></p>
+      <div class="count-grid" id="count-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== QUIZ ===================== -->
+  <section id="view-quiz" class="view view--quiz" hidden>
+    <header class="quiz-header">
+      <button class="back-btn" data-back="confirm-exit" aria-label="中断">←</button>
+      <div class="quiz-progress">
+        <div class="quiz-progress__track"><div class="quiz-progress__fill" id="quiz-progress-fill"></div></div>
+        <span class="quiz-progress__label"><span id="quiz-index">1</span> / <span id="quiz-total">10</span></span>
+      </div>
+      <span class="quiz-genre-tag" id="quiz-genre-tag">語彙</span>
+    </header>
+
+    <div class="quiz-body" id="quiz-body">
+      <div class="worksheet">
+        <div class="worksheet__instruction" id="worksheet-instruction"></div>
+
+        <div class="worksheet__passage" id="worksheet-passage" hidden></div>
+
+        <div class="worksheet__prompt" id="worksheet-prompt"></div>
+
+        <div class="worksheet__choices" id="worksheet-choices"></div>
+
+        <div class="worksheet__textinput" id="worksheet-textinput" hidden>
+          <input type="text" id="text-answer-input" placeholder="ここに答えを入力" autocomplete="off">
+        </div>
+      </div>
+    </div>
+
+    <footer class="quiz-footer">
+      <div class="feedback-strip" id="feedback-strip" hidden>
+        <span class="feedback-mark" id="feedback-mark">◯</span>
+        <span class="feedback-text" id="feedback-text"></span>
+      </div>
+      <button class="primary-btn" id="quiz-action-btn" disabled>決定</button>
+    </footer>
+  </section>
+
+  <!-- ===================== RESULT ===================== -->
+  <section id="view-result" class="view view--result" hidden>
+    <div class="result-body">
+      <div class="result-ring-wrap">
+        <svg viewBox="0 0 120 120" class="result-ring">
+          <circle cx="60" cy="60" r="52" class="result-ring__bg"/>
+          <circle cx="60" cy="60" r="52" class="result-ring__fg" id="result-ring-fg"/>
+        </svg>
+        <div class="result-ring__center">
+          <span class="result-ring__score" id="result-score">0</span>
+          <span class="result-ring__slash">/</span>
+          <span class="result-ring__max" id="result-max">10</span>
+        </div>
+      </div>
+      <p class="result-headline" id="result-headline">お疲れさま！</p>
+      <p class="result-sub" id="result-sub"></p>
+
+      <div class="result-genre-breakdown" id="result-genre-breakdown"></div>
+
+      <div class="result-actions">
+        <button class="primary-btn" id="review-btn">解答を見直す</button>
+        <button class="secondary-btn" id="retry-wrong-btn" hidden>間違えた問題だけ再挑戦</button>
+        <button class="ghost-btn" id="home-btn">ノートに戻る</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== REVIEW ===================== -->
+  <section id="view-review" class="view view--review" hidden>
+    <header class="sub-header">
+      <button class="back-btn" data-back="result" aria-label="戻る">←</button>
+      <h2>見直し</h2>
+    </header>
+    <div class="review-list" id="review-list"></div>
+    <footer class="review-footer">
+      <button class="ghost-btn" id="review-home-btn">ノートに戻る</button>
+    </footer>
+  </section>
+
+</div>
+
+<!-- exit confirm dialog -->
+<div id="confirm-dialog" class="dialog-overlay" hidden>
+  <div class="dialog">
+    <p class="dialog__text">ここでやめると、この回の記録は保存されません。中断しますか？</p>
+    <div class="dialog__actions">
+      <button class="ghost-btn" id="confirm-cancel">続ける</button>
+      <button class="primary-btn primary-btn--danger" id="confirm-exit">中断する</button>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
