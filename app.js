@@ -3,13 +3,13 @@
 // ============================================================
 
 const GENRES = {
-  vocab:    { label: "語彙・同義語",   short:"語彙",   color:"#2B3A55", desc: "下線部の言葉と意味が最も近いものを選ぶ問題。" },
-  usage:    { label: "語句の用法",     short:"用法",   color:"#6B4A8A", desc: "下線部と同じ意味・使い方をしている選択肢を選ぶ問題。" },
-  blank:    { label: "空所補充",       short:"空所",   color:"#C23B32", desc: "文の意味が通るように空所に入る語句を選ぶ問題。" },
-  blank2:   { label: "空所補充（2箇所）", short:"空所②", color:"#B5652C", desc: "①②2つの空所に入る組み合わせを選ぶ問題。" },
-  relation: { label: "二語の関係",     short:"二語",   color:"#3F7A5C", desc: "提示された2語と同じ関係になる対を選ぶ問題。" },
-  order:    { label: "文章整序",       short:"整序",   color:"#8A6D1E", desc: "バラバラの語句を並べ替えて文を完成させる問題。" },
-  reading:  { label: "長文読解",       short:"読解",   color:"#1C2740", desc: "文章を読んで、内容に関する設問に答える問題。" },
+  vocab:    { label: "語彙・同義語",   short:"語彙",   color:"#3A4A6B", desc: "下線部の言葉と意味が最も近いものを選ぶ。" },
+  usage:    { label: "語句の用法",     short:"用法",   color:"#7A5C3E", desc: "下線部と同じ使い方をしている選択肢を選ぶ。" },
+  blank:    { label: "空所補充",       short:"空所",   color:"#8C4A33", desc: "文意が通るように空所を埋める。" },
+  blank2:   { label: "空所補充（2箇所）", short:"空所②", color:"#9C8438", desc: "①②2つの空所の組み合わせを選ぶ。" },
+  relation: { label: "二語の関係",     short:"二語",   color:"#3E6E6B", desc: "提示された2語と同じ関係の対を選ぶ。" },
+  order:    { label: "文章整序",       short:"整序",   color:"#6B4368", desc: "語句を並べ替えて文を完成させる。" },
+  reading:  { label: "長文読解",       short:"読解",   color:"#1B1B1E", desc: "文章を読んで設問に答える。" },
 };
 
 const STORAGE_KEY = "spinote_history_v1";
@@ -95,18 +95,21 @@ function renderHome(){
   document.getElementById("weak-count").textContent = weakIds.length;
   weakCard.hidden = weakIds.length === 0;
 
-  // genre grid
+  // genre list
   const grid = document.getElementById("genre-grid");
   grid.innerHTML = "";
   Object.entries(GENRES).forEach(([key, meta])=>{
     const count = byGenre(key).length;
     const btn = document.createElement("button");
-    btn.className = "genre-card";
+    btn.className = "row row--genre";
     btn.dataset.genre = key;
     btn.innerHTML = `
-      <span class="genre-card__icon" style="background:${meta.color}">${meta.short.slice(0,1)}</span>
-      <span class="genre-card__name">${meta.label}</span>
-      <span class="genre-card__count">${count}問</span>
+      <span class="row__tab" style="background:${meta.color}"></span>
+      <span class="row__main">
+        <span class="row__title">${meta.label}</span>
+        <span class="row__desc">${meta.desc}</span>
+      </span>
+      <span class="row__meta">${count}問</span>
     `;
     btn.addEventListener("click", ()=> openGenrePicker(key));
     grid.appendChild(btn);
@@ -177,13 +180,13 @@ function openGenrePicker(key){
 
   options.forEach(opt=>{
     const card = document.createElement("button");
-    card.className = "count-card";
+    card.className = "row row--count";
     card.innerHTML = `
-      <span>
-        <span class="count-card__label">${opt.label}</span>
-        <span class="count-card__sub">${meta.label}からランダムに出題</span>
+      <span class="row__label-wrap">
+        <span class="row__title">${opt.label}</span>
+        <span class="row__desc">${meta.label}からランダムに出題</span>
       </span>
-      <span class="count-card__go">→</span>
+      <span class="row__go">→</span>
     `;
     card.addEventListener("click", ()=>{
       const picked = shuffle(qs).slice(0, opt.n);
@@ -322,8 +325,10 @@ function onDecide(){
     chosenLabel = chosen.map(i=>LETTERS[i]).join("・") || "（未選択）";
     btns.forEach((b,idx)=>{
       b.disabled = true;
+      b.classList.remove("is-selected");
       if(q.answer.includes(idx)) b.classList.add("is-correct");
       else if(chosen.includes(idx)) b.classList.add("is-wrong");
+      else b.classList.add("is-dim");
     });
   } else {
     const chosen = session._selected;
@@ -331,8 +336,10 @@ function onDecide(){
     chosenLabel = LETTERS[chosen];
     btns.forEach((b,idx)=>{
       b.disabled = true;
+      b.classList.remove("is-selected");
       if(idx===q.answer) b.classList.add("is-correct");
       else if(idx===chosen) b.classList.add("is-wrong");
+      else b.classList.add("is-dim");
     });
   }
 
@@ -350,7 +357,7 @@ function onDecide(){
   strip.hidden = false;
   strip.classList.add(correct ? "is-correct" : "is-wrong");
   mark.textContent = correct ? "◯" : "✗";
-  text.textContent = correct ? "せいかい！" : `不正解。正解は「${answerLabel(q)}」`;
+  text.innerHTML = correct ? "正解。" : `不正解。 正解は <b>${answerLabel(q)}</b>`;
 
   const isLast = session.index === session.questions.length-1;
   actionBtn.textContent = isLast ? "結果を見る" : "つぎへ";
@@ -418,7 +425,7 @@ function finishSession(){
   else if(pct>=80){ headline="いい調子。"; }
   else if(pct>=50){ headline="あと一歩。"; }
   else{ headline="ここから伸ばそう。"; }
-  sub = `${session.title} · 正答率 ${pct}%`;
+  sub = `${session.title}の正答率は${pct}%でした`;
   document.getElementById("result-headline").textContent = headline;
   document.getElementById("result-sub").textContent = sub;
 
