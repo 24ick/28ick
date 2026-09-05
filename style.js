@@ -7,13 +7,13 @@
 
 :root{
   --ink:          #1B1B1E;
-  --ink-soft:     #63625C;
-  --ink-faint:    #9C9A90;
+  --ink-soft:     #4E4C45;
+  --ink-faint:    #83816F;
   --paper:        #EDE8DC;
   --paper-deep:   #E3DDCD;
-  --sheet:        #FBFAF6;
-  --line:         #D6CFBC;
-  --line-strong:  #B9AF95;
+  --sheet:        #FFFFFF;
+  --line:         #E4DFCE;
+  --line-strong:  #948C6E;
   --indigo:       #33405C;
   --red:          #BC3B2C;
   --red-soft:     #E8CFC7;
@@ -319,49 +319,59 @@ input{ font-family: var(--sans); }
   border-bottom: 1.5px solid var(--red);
 }
 
-.quiz-body{ padding: 24px 18px 200px; }
+.quiz-body{ padding: 20px 14px 210px; }
+
+.worksheet{
+  background: var(--sheet);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  box-shadow: var(--shadow-sheet);
+  padding: 22px 20px 8px;
+}
 
 .worksheet__instruction{
   color: var(--ink-soft);
-  font-size: 13px;
-  line-height: 1.8;
+  font-size: 13.5px;
+  line-height: 1.85;
   padding: 0 0 18px;
   border-bottom: 1px dashed var(--line-strong);
   margin-bottom: 20px;
 }
 
 .worksheet__passage{
-  background: var(--sheet);
+  background: var(--paper);
   border:1px solid var(--line);
   border-radius: var(--radius-m);
-  padding: 18px 17px;
-  margin-bottom: 20px;
-  font-family: var(--serif);
-  font-size: 13.5px;
-  line-height: 2.05;
+  padding: 18px 16px;
+  margin-bottom: 22px;
+  font-family: var(--sans);
+  font-size: 15.5px;
+  line-height: 1.95;
   color: var(--ink);
   white-space: pre-line;
-  max-height: 230px;
+  max-height: 240px;
   overflow-y:auto;
   position:relative;
 }
 .worksheet__passage::before{
   content:"本文";
   position:sticky; top:0; float:right;
-  background: var(--sheet);
-  margin: -18px -17px 8px 8px;
+  background: var(--paper);
+  margin: -18px -16px 8px 8px;
   padding: 6px 10px 4px;
   font-family: var(--sans); font-size:10.5px; font-weight:700; color: var(--ink-faint);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--line-strong);
 }
 
 .worksheet__prompt{
-  font-family: var(--serif);
-  font-size: 17.5px;
-  line-height: 1.9;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 18.5px;
+  line-height: 1.75;
   color: var(--ink);
   padding: 0 0 22px;
   white-space: pre-line;
+  letter-spacing: .01em;
 }
 
 .worksheet__choices{ display:flex; flex-direction:column; }
@@ -369,7 +379,7 @@ input{ font-family: var(--sans); }
 .choice{
   display:flex; align-items:flex-start; gap:14px;
   width:100%;
-  padding: 15px 4px;
+  padding: 16px 2px;
   text-align:left;
   border-bottom: 1px solid var(--line);
   position:relative;
@@ -379,35 +389,37 @@ input{ font-family: var(--sans); }
 
 .choice__letter{
   flex-shrink:0;
-  width:27px; height:27px; border-radius:50%;
-  border: 1.5px solid var(--line-strong);
+  width:29px; height:29px; border-radius:50%;
+  border: 1.8px solid var(--line-strong);
+  background: var(--sheet);
   display:flex; align-items:center; justify-content:center;
-  font-family: var(--serif); font-weight:700; font-size:12.5px;
+  font-family: var(--serif); font-weight:700; font-size:13.5px;
   color: var(--ink-soft);
   margin-top:1px;
   position:relative;
 }
-.choice__text{ font-size:14.5px; line-height:1.65; color: var(--ink); padding-top:3px; }
+.choice__text{ font-size:16.5px; line-height:1.6; color: var(--ink); padding-top:4px; font-weight:500; }
 
 .choice.is-selected .choice__letter{ background: var(--ink); border-color: var(--ink); color: var(--sheet); }
-.choice.is-selected .choice__text{ color: var(--ink); font-weight:500; }
+.choice.is-selected .choice__text{ color: var(--ink); font-weight:700; }
 
-.choice.is-dim{ opacity: .38; }
+.choice.is-dim{ opacity: .42; }
 
-.choice.is-correct .choice__letter{ border-color: var(--green); color: var(--green); background: none; }
+.choice.is-correct .choice__letter{ border-color: var(--green); color: var(--green); background: var(--sheet); }
 .choice.is-correct .choice__text{ color: var(--ink); font-weight:700; }
 .choice.is-correct .choice__letter::after{
   content:"";
-  position:absolute; inset:-5px;
-  border: 2px solid var(--green);
+  position:absolute; inset:-6px;
+  border: 2.2px solid var(--green);
   border-radius:50%;
   border-top-color: transparent;
   transform: rotate(-18deg);
 }
 
-.choice.is-wrong .choice__letter{ border-color: var(--red); color: var(--red); background:none; }
-.choice.is-wrong .choice__text{ text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 1.4px; color: var(--ink-soft); }
+.choice.is-wrong .choice__letter{ border-color: var(--red); color: var(--red); background: var(--sheet); }
+.choice.is-wrong .choice__text{ text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 1.6px; color: var(--ink-soft); font-weight:500; }
 
+.worksheet__textinput{ padding-bottom: 14px; }
 .worksheet__textinput input{
   width:100%;
   border: none;
@@ -416,7 +428,8 @@ input{ font-family: var(--sans); }
   background: none;
   padding: 12px 4px;
   font-size: 17px;
-  font-family: var(--serif);
+  font-family: var(--sans);
+  font-weight: 700;
   color: var(--ink);
 }
 .worksheet__textinput input:focus{ outline:none; }
