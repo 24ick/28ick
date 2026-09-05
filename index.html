@@ -18,22 +18,29 @@
   <!-- ===================== HOME ===================== -->
   <section id="view-home" class="view view--home">
     <header class="home-hero">
-      <div class="home-hero__ruled" aria-hidden="true"></div>
-      <p class="home-hero__kicker">赤ペン復習ノート</p>
-      <h1 class="home-hero__title">SPI言語<span class="home-hero__title-sub">対策ノート</span></h1>
-      <p class="home-hero__lead">書き込み式の過去演習を、そのまま解き直せるように。</p>
+      <div class="home-hero__grain" aria-hidden="true"></div>
+
+      <p class="home-hero__label">演習ノート No.199</p>
+      <h1 class="home-hero__title">
+        <span class="home-hero__title-mark">
+          SPI
+          <svg viewBox="0 0 180 90" class="mark-svg" preserveAspectRatio="none" aria-hidden="true">
+            <path class="mark-svg__circle" pathLength="100"
+              d="M14,46 C10,20 45,7 92,6 C142,5 172,17 168,44 C165,70 128,84 86,84 C40,85 18,72 14,46 Z"/>
+          </svg>
+        </span>
+        <br>言語対策</h1>
+      <p class="home-hero__lead">赤入れ済みの過去演習を、そのまま解き直す。</p>
 
       <div class="home-stats" id="home-stats">
         <div class="home-stats__item">
           <span class="home-stats__num" id="stat-total">–</span>
           <span class="home-stats__label">問題</span>
         </div>
-        <div class="home-stats__div" aria-hidden="true"></div>
         <div class="home-stats__item">
           <span class="home-stats__num" id="stat-genres">7</span>
           <span class="home-stats__label">ジャンル</span>
         </div>
-        <div class="home-stats__div" aria-hidden="true"></div>
         <div class="home-stats__item">
           <span class="home-stats__num" id="stat-mastery">–</span>
           <span class="home-stats__label">正答率</span>
@@ -43,43 +50,43 @@
 
     <div class="home-body">
 
-      <div class="section-label"><span>おまかせで解く</span></div>
-      <div class="mode-grid">
-        <button class="mode-card mode-card--accent" data-mode="random10">
-          <span class="mode-card__mark">10</span>
-          <span class="mode-card__text">
-            <span class="mode-card__title">10問コース</span>
-            <span class="mode-card__desc">全ジャンルからランダムに10問。すきま時間用。</span>
+      <div class="section-label">おまかせで解く</div>
+      <div class="sheet" id="mode-sheet">
+        <button class="row row--mode" data-mode="random10">
+          <span class="row__main">
+            <span class="row__title">10問コース</span>
+            <span class="row__desc">全ジャンルからランダムに10問。すきま時間に。</span>
           </span>
+          <span class="row__meta">10問</span>
         </button>
-        <button class="mode-card" data-mode="all">
-          <span class="mode-card__mark">ALL</span>
-          <span class="mode-card__text">
-            <span class="mode-card__title">全問コース</span>
-            <span class="mode-card__desc">収録している全<span id="mode-all-count">–</span>問を順に解く。</span>
+        <button class="row row--mode" data-mode="all">
+          <span class="row__main">
+            <span class="row__title">全問コース</span>
+            <span class="row__desc">収録している全問をランダム順に解く。</span>
           </span>
+          <span class="row__meta"><span id="mode-all-count">–</span>問</span>
         </button>
-        <button class="mode-card" data-mode="weak" id="weak-mode-card" hidden>
-          <span class="mode-card__mark">✗</span>
-          <span class="mode-card__text">
-            <span class="mode-card__title">苦手問題だけ</span>
-            <span class="mode-card__desc">これまで間違えた問題（<span id="weak-count">0</span>問）を解き直す。</span>
+        <button class="row row--mode" data-mode="weak" id="weak-mode-card" hidden>
+          <span class="row__main">
+            <span class="row__title">苦手問題だけ</span>
+            <span class="row__desc">直近で間違えた問題を解き直す。</span>
           </span>
+          <span class="row__meta row__meta--red"><span id="weak-count">0</span>問</span>
         </button>
       </div>
 
-      <div class="section-label"><span>ジャンルを選んで解く</span></div>
-      <div class="genre-grid" id="genre-grid"></div>
+      <div class="section-label">ジャンルから選ぶ</div>
+      <div class="sheet" id="genre-grid"></div>
 
-      <div class="section-label"><span>これまでの記録</span></div>
-      <div class="history-panel" id="history-panel">
+      <div class="section-label">これまでの記録</div>
+      <div class="sheet sheet--pad" id="history-panel">
         <p class="history-empty" id="history-empty">まだ記録がありません。1回解いてみましょう。</p>
         <div class="history-bars" id="history-bars" hidden></div>
         <button class="link-btn" id="reset-history-btn" hidden>記録をリセット</button>
       </div>
 
       <footer class="home-footer">
-        <p>このノートは、あなた専用の演習ログをブラウザ内（localStorage）だけに保存します。他の端末とは共有されません。</p>
+        <p>演習ログはブラウザ内（localStorage）だけに保存されます。他の端末とは共有されません。</p>
       </footer>
     </div>
   </section>
@@ -92,7 +99,7 @@
     </header>
     <div class="genre-picker-body">
       <p class="genre-picker-desc" id="genre-picker-desc"></p>
-      <div class="count-grid" id="count-grid"></div>
+      <div class="sheet" id="count-grid"></div>
     </div>
   </section>
 
