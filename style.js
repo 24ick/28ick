@@ -119,10 +119,10 @@ input{ font-family: var(--sans); }
 .primary-btn{
   background: var(--ink);
   color: var(--sheet);
-  padding: 18px 20px;
+  padding: 20px 20px;
   border-radius: var(--radius-m);
   font-weight: 700;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: .02em;
   width: 100%;
   transition: transform .12s ease, opacity .12s ease;
@@ -135,18 +135,18 @@ input{ font-family: var(--sans); }
   background: var(--sheet);
   border: 1.5px solid var(--ink);
   color: var(--ink);
-  padding: 14px 20px;
+  padding: 18px 20px;
   border-radius: var(--radius-m);
   font-weight: 700;
-  font-size: 15px;
+  font-size: 17px;
   width: 100%;
 }
 .secondary-btn:active{ background: var(--paper-deep); }
 
 .ghost-btn{
   color: var(--ink-soft);
-  padding: 12px 16px;
-  font-size: 14px;
+  padding: 14px 16px;
+  font-size: 15.5px;
   width: 100%;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -154,11 +154,11 @@ input{ font-family: var(--sans); }
 }
 
 .back-btn{
-  width:34px; height:34px; border-radius:50%;
-  border:1px solid var(--line-strong);
+  width:48px; height:48px; border-radius:50%;
+  border:1.5px solid var(--line-strong);
   background: var(--sheet);
   color: var(--ink);
-  font-size: 17px;
+  font-size: 21px;
   display:flex; align-items:center; justify-content:center;
   flex-shrink:0;
 }
@@ -291,9 +291,9 @@ input{ font-family: var(--sans); }
 .row--count .row__title{ font-size:16px; }
 .row--count .row__desc{ font-size:13.5px; }
 .row__go{
-  width:30px; height:30px; border-radius:50%;
-  border: 1px solid var(--line-strong);
-  display:flex; align-items:center; justify-content:center; font-size:14px;
+  width:40px; height:40px; border-radius:50%;
+  border: 1.5px solid var(--line-strong);
+  display:flex; align-items:center; justify-content:center; font-size:17px;
   color: var(--ink-soft);
   flex-shrink:0;
 }
@@ -451,8 +451,8 @@ input{ font-family: var(--sans); }
   border-bottom: 1px dashed var(--line-strong);
 }
 .feedback-mark{
-  font-family: var(--serif); font-weight:700; font-size: 24px; flex-shrink:0;
-  width:34px; height:34px; border-radius:50%;
+  font-family: var(--serif); font-weight:700; font-size: 28px; flex-shrink:0;
+  width:42px; height:42px; border-radius:50%;
   display:flex; align-items:center; justify-content:center;
 }
 .feedback-strip.is-correct .feedback-mark{ color: var(--green); }
