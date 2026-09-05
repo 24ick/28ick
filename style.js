@@ -90,10 +90,10 @@ input{ font-family: var(--sans); }
 
 .row--mode .row__main{ display:flex; flex-direction:column; gap:4px; flex:1; min-width:0; }
 .row__title{ font-family: var(--serif); font-weight:700; font-size:16px; color: var(--ink); }
-.row__desc{ font-size:12px; color: var(--ink-soft); line-height:1.5; }
+.row__desc{ font-size:13.5px; color: var(--ink-soft); line-height:1.55; }
 .row__meta{
   flex-shrink:0;
-  font-family: var(--serif); font-size:13px; color: var(--ink-faint);
+  font-family: var(--serif); font-size:14px; color: var(--ink-faint);
   border: 1px solid var(--line-strong);
   border-radius: 999px;
   padding: 4px 11px;
@@ -106,13 +106,13 @@ input{ font-family: var(--sans); }
   width:5px; margin-right:17px;
 }
 .row--genre .row__main{ flex:1; min-width:0; padding: 18px 0; display:flex; flex-direction:column; gap:3px; }
-.row--genre .row__title{ font-size:15px; }
-.row--genre .row__desc{ font-size:11.5px; }
-.row--genre .row__meta{ margin-right:20px; border:none; padding:0; font-size:12.5px; color: var(--ink-soft); }
+.row--genre .row__title{ font-size:16px; }
+.row--genre .row__desc{ font-size:13px; }
+.row--genre .row__meta{ margin-right:20px; border:none; padding:0; font-size:13.5px; color: var(--ink-soft); }
 
 .link-btn{
   background:none; border:none; color: var(--ink-soft);
-  font-size: 12.5px; text-decoration: underline;
+  font-size: 14px; text-decoration: underline;
   text-underline-offset: 2px; padding: 10px 0 0;
 }
 
@@ -232,7 +232,7 @@ input{ font-family: var(--sans); }
   position:relative;
   margin-top: 16px;
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 15.5px;
   line-height: 1.7;
   max-width: 30ch;
 }
@@ -253,23 +253,23 @@ input{ font-family: var(--sans); }
   font-family: var(--serif); font-weight:700; font-size:26px; color: var(--ink);
   font-variant-numeric: tabular-nums;
 }
-.home-stats__label{ font-size:11px; color: var(--ink-soft); }
+.home-stats__label{ font-size:12.5px; color: var(--ink-soft); }
 
 .home-body{ padding-bottom: 44px; }
 
-.history-empty{ font-size:13px; color: var(--ink-soft); text-align:center; padding: 4px 0; }
+.history-empty{ font-size:14.5px; color: var(--ink-soft); text-align:center; padding: 4px 0; }
 .history-bars{ display:flex; flex-direction:column; gap:14px; }
 .history-bar-row{ display:flex; align-items:center; gap:12px; }
-.history-bar-row__label{ width:66px; flex-shrink:0; font-size:12px; color:var(--ink-soft); font-family: var(--serif); }
+.history-bar-row__label{ width:66px; flex-shrink:0; font-size:13.5px; color:var(--ink-soft); font-family: var(--serif); }
 .history-bar-row__track{ flex:1; height:2px; background: var(--line); position:relative; }
 .history-bar-row__fill{ position:absolute; left:0; top:-2px; height:2px; background: var(--ink); }
 .history-bar-row__fill::after{
   content:""; position:absolute; right:-3px; top:-3px; width:7px; height:7px; border-radius:50%; background: var(--red);
 }
-.history-bar-row__pct{ width:36px; text-align:right; font-size:11.5px; color:var(--ink-soft); font-variant-numeric: tabular-nums; }
+.history-bar-row__pct{ width:36px; text-align:right; font-size:13px; color:var(--ink-soft); font-variant-numeric: tabular-nums; }
 
 .home-footer{ margin: 30px 20px 0; }
-.home-footer p{ font-size:10.5px; color: var(--ink-faint); line-height:1.7; text-align:center; }
+.home-footer p{ font-size:12px; color: var(--ink-faint); line-height:1.7; text-align:center; }
 
 /* ============================================================
    SUB HEADER / GENRE PICKER
@@ -284,12 +284,12 @@ input{ font-family: var(--sans); }
 .sub-header h2{ font-size:17px; color: var(--ink); font-weight:700; }
 
 .genre-picker-body{ padding: 24px 0 30px; }
-.genre-picker-desc{ color: var(--ink-soft); font-size: 13px; margin: 0 20px 20px; line-height:1.7; }
+.genre-picker-desc{ color: var(--ink-soft); font-size: 14.5px; margin: 0 20px 20px; line-height:1.7; }
 
 .row--count{ justify-content:space-between; }
 .row--count .row__label-wrap{ display:flex; flex-direction:column; gap:3px; }
-.row--count .row__title{ font-size:15px; }
-.row--count .row__desc{ font-size:12px; }
+.row--count .row__title{ font-size:16px; }
+.row--count .row__desc{ font-size:13.5px; }
 .row__go{
   width:30px; height:30px; border-radius:50%;
   border: 1px solid var(--line-strong);
@@ -310,11 +310,11 @@ input{ font-family: var(--sans); }
 .quiz-progress{ flex:1; display:flex; flex-direction:column; gap:6px; }
 .quiz-progress__track{ height:2px; background: var(--line); position:relative; }
 .quiz-progress__fill{ position:absolute; left:0; top:-1.5px; height:3px; background: var(--red); transition: width .3s ease; width:0%; }
-.quiz-progress__label{ font-size:11px; color: var(--ink-soft); font-variant-numeric: tabular-nums; font-family: var(--serif); }
+.quiz-progress__label{ font-size:12.5px; color: var(--ink-soft); font-variant-numeric: tabular-nums; font-family: var(--serif); }
 .quiz-genre-tag{
   flex-shrink:0;
   font-family: var(--serif);
-  font-size:12.5px; color: var(--ink-soft);
+  font-size:14px; color: var(--ink-soft);
   padding: 4px 2px; white-space:nowrap;
   border-bottom: 1.5px solid var(--red);
 }
@@ -331,7 +331,7 @@ input{ font-family: var(--sans); }
 
 .worksheet__instruction{
   color: var(--ink-soft);
-  font-size: 13.5px;
+  font-size: 15px;
   line-height: 1.85;
   padding: 0 0 18px;
   border-bottom: 1px dashed var(--line-strong);
@@ -345,7 +345,7 @@ input{ font-family: var(--sans); }
   padding: 18px 16px;
   margin-bottom: 22px;
   font-family: var(--sans);
-  font-size: 15.5px;
+  font-size: 16px;
   line-height: 1.95;
   color: var(--ink);
   white-space: pre-line;
@@ -359,15 +359,15 @@ input{ font-family: var(--sans); }
   background: var(--paper);
   margin: -18px -16px 8px 8px;
   padding: 6px 10px 4px;
-  font-family: var(--sans); font-size:10.5px; font-weight:700; color: var(--ink-faint);
+  font-family: var(--sans); font-size:11.5px; font-weight:700; color: var(--ink-faint);
   border-bottom: 1px solid var(--line-strong);
 }
 
 .worksheet__prompt{
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 18.5px;
-  line-height: 1.75;
+  font-size: 19px;
+  line-height: 1.8;
   color: var(--ink);
   padding: 0 0 22px;
   white-space: pre-line;
@@ -398,7 +398,7 @@ input{ font-family: var(--sans); }
   margin-top:1px;
   position:relative;
 }
-.choice__text{ font-size:16.5px; line-height:1.6; color: var(--ink); padding-top:4px; font-weight:500; }
+.choice__text{ font-size:17px; line-height:1.65; color: var(--ink); padding-top:4px; font-weight:500; }
 
 .choice.is-selected .choice__letter{ background: var(--ink); border-color: var(--ink); color: var(--sheet); }
 .choice.is-selected .choice__text{ color: var(--ink); font-weight:700; }
@@ -433,7 +433,7 @@ input{ font-family: var(--sans); }
   color: var(--ink);
 }
 .worksheet__textinput input:focus{ outline:none; }
-.worksheet__textinput input::placeholder{ font-family: var(--sans); color: var(--ink-faint); font-size:14px; }
+.worksheet__textinput input::placeholder{ font-family: var(--sans); color: var(--ink-faint); font-size:15px; }
 
 .quiz-footer{
   position: fixed;
@@ -457,7 +457,7 @@ input{ font-family: var(--sans); }
 }
 .feedback-strip.is-correct .feedback-mark{ color: var(--green); }
 .feedback-strip.is-wrong .feedback-mark{ color: var(--red); }
-.feedback-text{ font-size:12.5px; line-height:1.6; color: var(--ink-soft); }
+.feedback-text{ font-size:14px; line-height:1.65; color: var(--ink-soft); }
 .feedback-text b{ color: var(--ink); font-weight:700; }
 
 /* ============================================================
@@ -478,7 +478,7 @@ input{ font-family: var(--sans); }
 .result-ring__max{ font-size:18px; color: var(--ink-faint); }
 
 .result-headline{ font-family: var(--serif); font-size:21px; font-weight:700; color: var(--ink); margin-bottom:8px; }
-.result-sub{ font-size:13px; color: var(--ink-soft); line-height:1.7; }
+.result-sub{ font-size:14.5px; color: var(--ink-soft); line-height:1.7; }
 
 .result-genre-breakdown{ margin-top:34px; display:flex; flex-direction:column; gap:14px; text-align:left; padding: 22px 22px 4px; background: var(--sheet); border:1px solid var(--line); border-radius: var(--radius-l); }
 
@@ -495,13 +495,13 @@ input{ font-family: var(--sans); }
 .review-item:first-child{ border-top: 1px solid var(--line); }
 .review-item__top{ display:flex; align-items:center; gap:10px; margin-bottom:10px; }
 .review-item__badge{
-  font-size:11px; font-weight:700;
+  font-size:12.5px; font-weight:700;
 }
 .review-item__badge.correct{ color: var(--green); }
 .review-item__badge.wrong{ color: var(--red); }
-.review-item__genre{ font-size:11px; color: var(--ink-faint); }
-.review-item__prompt{ font-family: var(--serif); font-size:14.5px; line-height:1.75; margin-bottom:10px; white-space:pre-line; }
-.review-item__row{ font-size:12.5px; line-height:1.8; padding:2px 0; color: var(--ink-soft); }
+.review-item__genre{ font-size:12.5px; color: var(--ink-faint); }
+.review-item__prompt{ font-family: var(--sans); font-weight:700; font-size:16.5px; line-height:1.65; margin-bottom:10px; white-space:pre-line; }
+.review-item__row{ font-size:14px; line-height:1.75; padding:2px 0; color: var(--ink-soft); }
 .review-item__row b{ font-weight:700; color: var(--ink); }
 .review-item__your{ color: var(--red); }
 .review-item__correct{ color: var(--green); }
@@ -521,7 +521,7 @@ input{ font-family: var(--sans); }
   box-shadow: 0 24px 60px rgba(0,0,0,.3);
   border: 1px solid var(--line);
 }
-.dialog__text{ font-size:14px; line-height:1.7; color: var(--ink); margin-bottom:20px; font-family: var(--serif); }
+.dialog__text{ font-size:16px; line-height:1.7; color: var(--ink); margin-bottom:20px; font-family: var(--serif); }
 .dialog__actions{ display:flex; flex-direction:column; gap:8px; }
 
 /* utility */
