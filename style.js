@@ -119,10 +119,10 @@ input{ font-family: var(--sans); }
 .primary-btn{
   background: var(--ink);
   color: var(--sheet);
-  padding: 15px 20px;
+  padding: 18px 20px;
   border-radius: var(--radius-m);
   font-weight: 700;
-  font-size: 15.5px;
+  font-size: 17px;
   letter-spacing: .02em;
   width: 100%;
   transition: transform .12s ease, opacity .12s ease;
@@ -207,8 +207,8 @@ input{ font-family: var(--sans); }
   stroke-width: 2.2;
   stroke-linecap: round;
   opacity: .88;
-  stroke-dasharray: 100;
-  stroke-dashoffset: 100;
+  stroke-dasharray: 420;
+  stroke-dashoffset: 420;
   animation: draw-circle 1s cubic-bezier(.65,0,.35,1) .3s forwards;
 }
 @keyframes draw-circle{ to{ stroke-dashoffset: 0; } }
@@ -326,7 +326,7 @@ input{ font-family: var(--sans); }
   border: 1px solid var(--line);
   border-radius: var(--radius-l);
   box-shadow: var(--shadow-sheet);
-  padding: 22px 20px 8px;
+  padding: 26px 22px 8px;
 }
 
 .worksheet__instruction{
@@ -366,10 +366,10 @@ input{ font-family: var(--sans); }
 .worksheet__prompt{
   font-family: var(--sans);
   font-weight: 700;
-  font-size: 19px;
-  line-height: 1.8;
+  font-size: 21px;
+  line-height: 1.75;
   color: var(--ink);
-  padding: 0 0 22px;
+  padding: 4px 0 26px;
   white-space: pre-line;
   letter-spacing: .01em;
 }
@@ -377,9 +377,10 @@ input{ font-family: var(--sans); }
 .worksheet__choices{ display:flex; flex-direction:column; }
 
 .choice{
-  display:flex; align-items:flex-start; gap:14px;
+  display:flex; align-items:center; gap:18px;
   width:100%;
-  padding: 16px 2px;
+  min-height: 34px;
+  padding: 26px 6px;
   text-align:left;
   border-bottom: 1px solid var(--line);
   position:relative;
@@ -389,16 +390,15 @@ input{ font-family: var(--sans); }
 
 .choice__letter{
   flex-shrink:0;
-  width:29px; height:29px; border-radius:50%;
-  border: 1.8px solid var(--line-strong);
+  width:40px; height:40px; border-radius:50%;
+  border: 2px solid var(--line-strong);
   background: var(--sheet);
   display:flex; align-items:center; justify-content:center;
-  font-family: var(--serif); font-weight:700; font-size:13.5px;
+  font-family: var(--serif); font-weight:700; font-size:16px;
   color: var(--ink-soft);
-  margin-top:1px;
   position:relative;
 }
-.choice__text{ font-size:17px; line-height:1.65; color: var(--ink); padding-top:4px; font-weight:500; }
+.choice__text{ font-size:19px; line-height:1.55; color: var(--ink); font-weight:600; }
 
 .choice.is-selected .choice__letter{ background: var(--ink); border-color: var(--ink); color: var(--sheet); }
 .choice.is-selected .choice__text{ color: var(--ink); font-weight:700; }
@@ -409,7 +409,7 @@ input{ font-family: var(--sans); }
 .choice.is-correct .choice__text{ color: var(--ink); font-weight:700; }
 .choice.is-correct .choice__letter::after{
   content:"";
-  position:absolute; inset:-6px;
+  position:absolute; inset:-7px;
   border: 2.2px solid var(--green);
   border-radius:50%;
   border-top-color: transparent;
