@@ -62,6 +62,11 @@ input{ font-family: var(--sans); }
 .view{ animation: fade-in .3s ease; }
 @keyframes fade-in{ from{ opacity:0; } to{ opacity:1; } }
 
+.view--quiz{
+  display:flex; flex-direction:column;
+  height:100vh; height:100dvh;
+}
+
 /* ---------------- primitives ---------------- */
 
 /* "sheet": the one container device used everywhere instead of
@@ -305,7 +310,8 @@ input{ font-family: var(--sans); }
   display:flex; align-items:center; gap:12px;
   padding: 16px 18px;
   border-bottom: 1px solid var(--line);
-  position: sticky; top:0; background: var(--paper); z-index:5;
+  flex-shrink: 0;
+  background: var(--paper);
 }
 .quiz-progress{ flex:1; display:flex; flex-direction:column; gap:6px; }
 .quiz-progress__track{ height:2px; background: var(--line); position:relative; }
@@ -319,14 +325,24 @@ input{ font-family: var(--sans); }
   border-bottom: 1.5px solid var(--red);
 }
 
-.quiz-body{ padding: 20px 14px 210px; }
+.quiz-body{
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 18px 14px;
+  display:flex; flex-direction:column;
+}
 
 .worksheet{
   background: var(--sheet);
   border: 1px solid var(--line);
   border-radius: var(--radius-l);
   box-shadow: var(--shadow-sheet);
-  padding: 26px 22px 8px;
+  padding: 24px 20px;
+  flex: 1 1 auto;
+  display:flex; flex-direction:column;
+  min-height: 100%;
 }
 
 .worksheet__instruction{
@@ -374,48 +390,59 @@ input{ font-family: var(--sans); }
   letter-spacing: .01em;
 }
 
-.worksheet__choices{ display:flex; flex-direction:column; }
+.worksheet__choices{
+  display:flex; flex-direction:column; gap:12px;
+  flex: 1 1 auto;
+  margin-top: 4px;
+  padding-bottom: 4px;
+}
 
 .choice{
   display:flex; align-items:center; gap:18px;
   width:100%;
-  min-height: 34px;
-  padding: 26px 6px;
+  flex: 1 1 0;
+  min-height: 72px;
+  padding: 18px 20px;
   text-align:left;
-  border-bottom: 1px solid var(--line);
+  border: 2px solid var(--line-strong);
+  border-radius: var(--radius-m);
+  background: var(--sheet);
   position:relative;
+  transition: transform .1s ease, background .1s ease, border-color .1s ease;
 }
-.choice:first-child{ border-top: 1px solid var(--line); }
-.choice:active{ background: var(--paper-deep); }
+.choice:active{ background: var(--paper-deep); transform: scale(.98); }
 
 .choice__letter{
   flex-shrink:0;
-  width:40px; height:40px; border-radius:50%;
-  border: 2px solid var(--line-strong);
+  width:46px; height:46px; border-radius:50%;
+  border: 2.2px solid var(--line-strong);
   background: var(--sheet);
   display:flex; align-items:center; justify-content:center;
-  font-family: var(--serif); font-weight:700; font-size:16px;
+  font-family: var(--serif); font-weight:700; font-size:18px;
   color: var(--ink-soft);
   position:relative;
 }
-.choice__text{ font-size:19px; line-height:1.55; color: var(--ink); font-weight:600; }
+.choice__text{ font-size:20px; line-height:1.5; color: var(--ink); font-weight:600; }
 
+.choice.is-selected{ border-color: var(--ink); background: var(--paper-deep); }
 .choice.is-selected .choice__letter{ background: var(--ink); border-color: var(--ink); color: var(--sheet); }
 .choice.is-selected .choice__text{ color: var(--ink); font-weight:700; }
 
 .choice.is-dim{ opacity: .42; }
 
+.choice.is-correct{ border-color: var(--green); background: var(--green-soft); }
 .choice.is-correct .choice__letter{ border-color: var(--green); color: var(--green); background: var(--sheet); }
 .choice.is-correct .choice__text{ color: var(--ink); font-weight:700; }
 .choice.is-correct .choice__letter::after{
   content:"";
   position:absolute; inset:-7px;
-  border: 2.2px solid var(--green);
+  border: 2.4px solid var(--green);
   border-radius:50%;
   border-top-color: transparent;
   transform: rotate(-18deg);
 }
 
+.choice.is-wrong{ border-color: var(--red); background: var(--red-soft); }
 .choice.is-wrong .choice__letter{ border-color: var(--red); color: var(--red); background: var(--sheet); }
 .choice.is-wrong .choice__text{ text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 1.6px; color: var(--ink-soft); font-weight:500; }
 
@@ -436,13 +463,10 @@ input{ font-family: var(--sans); }
 .worksheet__textinput input::placeholder{ font-family: var(--sans); color: var(--ink-faint); font-size:15px; }
 
 .quiz-footer{
-  position: fixed;
-  bottom:0; left:50%; transform: translateX(-50%);
-  width:100%; max-width:560px;
+  flex-shrink: 0;
   background: var(--paper);
   border-top: 1px solid var(--line);
   padding: 14px 18px calc(16px + env(safe-area-inset-bottom));
-  z-index: 6;
 }
 .feedback-strip{
   display:flex; align-items:center; gap:12px;
