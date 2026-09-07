@@ -221,6 +221,8 @@ function renderQuestion(){
   const q = currentQuestion();
   const meta = GENRES[q.genre];
 
+  document.getElementById("quiz-body").scrollTop = 0;
+
   document.getElementById("quiz-index").textContent = session.index+1;
   document.getElementById("quiz-total").textContent = session.questions.length;
   document.getElementById("quiz-progress-fill").style.width =
@@ -231,7 +233,8 @@ function renderQuestion(){
 
   const passageEl = document.getElementById("worksheet-passage");
   if(q.passage){
-    passageEl.textContent = q.passage;
+    passageEl.innerHTML = '<span class="worksheet__passage__label">本文</span>';
+    passageEl.appendChild(document.createTextNode(q.passage));
     passageEl.hidden = false;
   } else {
     passageEl.hidden = true;
@@ -260,7 +263,7 @@ function renderQuestion(){
     const input = document.getElementById("text-answer-input");
     input.value = "";
     input.disabled = false;
-    input.focus();
+    input.focus({ preventScroll: true });
     input.oninput = ()=>{ actionBtn.disabled = input.value.trim().length===0; };
     input.onkeydown = (e)=>{ if(e.key==="Enter" && !actionBtn.disabled) actionBtn.onclick(); };
   } else {
