@@ -356,27 +356,23 @@ input{ font-family: var(--sans); }
 
 .worksheet__passage{
   background: var(--paper);
-  border:1px solid var(--line);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--ink-soft);
   border-radius: var(--radius-m);
-  padding: 18px 16px;
-  margin-bottom: 22px;
+  padding: 20px 18px 18px;
+  margin-bottom: 24px;
   font-family: var(--sans);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.95;
   color: var(--ink);
   white-space: pre-line;
-  max-height: 240px;
-  overflow-y:auto;
   position:relative;
 }
-.worksheet__passage::before{
-  content:"本文";
-  position:sticky; top:0; float:right;
-  background: var(--paper);
-  margin: -18px -16px 8px 8px;
-  padding: 6px 10px 4px;
-  font-family: var(--sans); font-size:11.5px; font-weight:700; color: var(--ink-faint);
-  border-bottom: 1px solid var(--line-strong);
+.worksheet__passage__label{
+  display:block;
+  font-family: var(--sans); font-size:12px; font-weight:700; color: var(--ink-faint);
+  letter-spacing: .05em;
+  margin-bottom: 10px;
 }
 
 .worksheet__prompt{
