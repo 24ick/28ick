@@ -87,6 +87,7 @@ function showView(name){
 function renderHome(){
   document.getElementById("stat-total").textContent = QUESTIONS.length;
   document.getElementById("mode-all-count").textContent = QUESTIONS.length;
+  document.getElementById("hero-label").textContent = "演習ノート No." + QUESTIONS.length;
   const acc = overallAccuracy();
   document.getElementById("stat-mastery").textContent = acc===null ? "–" : acc+"%";
 
