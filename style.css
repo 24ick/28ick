@@ -340,7 +340,7 @@ input{ font-family: var(--sans); }
   border-radius: var(--radius-l);
   box-shadow: var(--shadow-sheet);
   padding: 24px 20px;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   display:flex; flex-direction:column;
   min-height: 100%;
 }
@@ -352,6 +352,7 @@ input{ font-family: var(--sans); }
   padding: 0 0 18px;
   border-bottom: 1px dashed var(--line-strong);
   margin-bottom: 20px;
+  flex: 0 0 auto;
 }
 
 .worksheet__passage{
@@ -367,6 +368,7 @@ input{ font-family: var(--sans); }
   color: var(--ink);
   white-space: pre-line;
   position:relative;
+  flex: 0 0 auto;
 }
 .worksheet__passage__label{
   display:block;
@@ -384,11 +386,12 @@ input{ font-family: var(--sans); }
   padding: 4px 0 26px;
   white-space: pre-line;
   letter-spacing: .01em;
+  flex: 0 0 auto;
 }
 
 .worksheet__choices{
   display:flex; flex-direction:column; gap:12px;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   margin-top: 4px;
   padding-bottom: 4px;
 }
