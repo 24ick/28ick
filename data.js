@@ -3245,5 +3245,4295 @@ const QUESTIONS = [
    "多くの人に観賞される"
   ],
   "answer": 1
+ },
+ {
+  "id": 200,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "招き寄せること",
+  "type": "single",
+  "choices": [
+   "導入",
+   "招待",
+   "歓迎",
+   "誘致",
+   "待機"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 201,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "人に知られないように策動すること",
+  "type": "single",
+  "choices": [
+   "潜行",
+   "陰密",
+   "扇動",
+   "内密",
+   "暗躍"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 202,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事を正しく判断する力",
+  "type": "single",
+  "choices": [
+   "眼力",
+   "機知",
+   "心得",
+   "識見",
+   "識別"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 203,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "しかたがないと思って受けること",
+  "type": "single",
+  "choices": [
+   "たえる",
+   "あまんずる",
+   "へりくだる",
+   "もてあます",
+   "ひらきなおる"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 204,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事が進行しておもしろくなってきたところ",
+  "type": "single",
+  "choices": [
+   "頂点",
+   "佳境",
+   "要所",
+   "醍醐味",
+   "正念場"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 205,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "問題とされながらまだ解決がつかない事柄",
+  "type": "single",
+  "choices": [
+   "保留",
+   "懸案",
+   "未決",
+   "難問",
+   "棚上げ"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 206,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "おしはかること、思いやること",
+  "type": "single",
+  "choices": [
+   "推考",
+   "類推",
+   "推論",
+   "推察",
+   "推定"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 207,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "境遇に満足しているさまを言動に表すこと",
+  "type": "single",
+  "choices": [
+   "至福",
+   "闊達",
+   "満喫",
+   "謳歌",
+   "有頂天"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 208,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "そのことだけにかかわって他をおろそかにする",
+  "type": "single",
+  "choices": [
+   "ひたる",
+   "かまける",
+   "いそしむ",
+   "かかりきる",
+   "なおざりにする"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 209,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "他人の権利を傷つけ、社会秩序を乱す",
+  "type": "single",
+  "choices": [
+   "威圧する",
+   "愚弄する",
+   "蹂躙する",
+   "席巻する",
+   "籠絡する"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 210,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "他人に見つからないようにこっそりとかくすこと",
+  "type": "single",
+  "choices": [
+   "隠匿",
+   "隠蔽",
+   "奥秘",
+   "秘蔵",
+   "機密",
+   "内密"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 211,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "心がきたなく、いやしい",
+  "type": "single",
+  "choices": [
+   "がめつい",
+   "さもしい",
+   "あくどい",
+   "はしたない",
+   "意地きたない"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 212,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "指示し励ますこと",
+  "type": "single",
+  "choices": [
+   "励行",
+   "激励",
+   "応援",
+   "援護",
+   "督励"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 213,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "助力すること",
+  "type": "single",
+  "choices": [
+   "加勢",
+   "共謀",
+   "結託",
+   "貢献",
+   "団結",
+   "連携"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 214,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の進行が急にくじけること",
+  "type": "single",
+  "choices": [
+   "失速",
+   "頓挫",
+   "急転",
+   "難航",
+   "破綻"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 215,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "思わず笑ってしまうこと",
+  "type": "single",
+  "choices": [
+   "哄笑",
+   "失笑",
+   "嘲笑",
+   "微笑"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 216,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "どうにもならないことを残念がる",
+  "type": "single",
+  "choices": [
+   "気に病む",
+   "ほぞをかむ",
+   "胸を痛める",
+   "腕をこまねく",
+   "首を垂れる"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 217,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "こまかなところまではっきりしているさま",
+  "type": "single",
+  "choices": [
+   "あきらか",
+   "あざやか",
+   "こまやか",
+   "つまびらか"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 218,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "世にもまれなこと",
+  "type": "single",
+  "choices": [
+   "格別",
+   "希代",
+   "珍奇",
+   "突飛",
+   "非凡"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 219,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "様子がどうも変だと思う",
+  "type": "single",
+  "choices": [
+   "あやぶむ",
+   "いぶかる",
+   "かんぐる",
+   "おしはかる",
+   "ためらう"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 220,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "窮地から逃れる方法",
+  "type": "single",
+  "choices": [
+   "秘策",
+   "迂回",
+   "便法",
+   "活路",
+   "遁走"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 221,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ひどく感心すること",
+  "type": "single",
+  "choices": [
+   "感涙",
+   "驚嘆",
+   "心酔",
+   "崇敬"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 222,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ものが十分にあること",
+  "type": "single",
+  "choices": [
+   "余分",
+   "潤沢",
+   "裕福",
+   "大量",
+   "余裕"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 223,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "「卑近」の意味に最も近いものはどれか",
+  "type": "single",
+  "choices": [
+   "身近な",
+   "卑しい",
+   "俗低な",
+   "低級な",
+   "当今の"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 224,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "直接は言葉に表さないところ",
+  "type": "single",
+  "choices": [
+   "本心",
+   "無言",
+   "他意",
+   "余念",
+   "言外"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 225,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "やり方などを受け継ぎ、したがうこと",
+  "type": "single",
+  "choices": [
+   "因習",
+   "慣例",
+   "伝承",
+   "踏襲",
+   "伝統"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 226,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "経験を積んで人柄などが円熟すること",
+  "type": "single",
+  "choices": [
+   "老練",
+   "晩成",
+   "成熟",
+   "老成",
+   "大成"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 227,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "悲しみのあまり声をあげて激しく泣くこと",
+  "type": "single",
+  "choices": [
+   "慟哭",
+   "号泣",
+   "嗚咽",
+   "悲哭",
+   "哀哭"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 228,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "建造物ができあがること",
+  "type": "single",
+  "choices": [
+   "建立",
+   "造営",
+   "築造",
+   "普請",
+   "落成"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 229,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "成果が期待される意気盛んな門出",
+  "type": "single",
+  "choices": [
+   "出馬",
+   "出藍",
+   "前途",
+   "壮途",
+   "発揚"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 230,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "わがままで好き勝手に振る舞うこと",
+  "type": "single",
+  "choices": [
+   "厚顔",
+   "傲慢",
+   "専横",
+   "独断",
+   "不遜"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 231,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の急所",
+  "type": "single",
+  "choices": [
+   "意表",
+   "意外",
+   "図星",
+   "核心",
+   "主眼"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 232,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "働かないでただ遊び暮らすこと",
+  "type": "single",
+  "choices": [
+   "徒食",
+   "贅沢",
+   "遊興",
+   "道楽",
+   "放蕩"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 233,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "心底感心してほめたたえること",
+  "type": "single",
+  "choices": [
+   "詠嘆する",
+   "感服する",
+   "感嘆する",
+   "感激する",
+   "感謝する"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 234,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分の欲望や衝動に打ち勝つこと",
+  "type": "single",
+  "choices": [
+   "堅忍",
+   "克己",
+   "自重",
+   "自粛",
+   "克服"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 235,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "両者の間に入ってとりもつこと",
+  "type": "single",
+  "choices": [
+   "干渉",
+   "調停",
+   "後見",
+   "斡旋",
+   "介入"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 236,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "きわめて短い時間",
+  "type": "single",
+  "choices": [
+   "刹那",
+   "光陰",
+   "突発",
+   "発作",
+   "一刻"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 237,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "そうするより仕方ない事情",
+  "type": "single",
+  "choices": [
+   "忌憚ない",
+   "如才ない",
+   "抜き差しならない",
+   "滅相もない",
+   "拠ん所ない"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 238,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物語の大きな流れ",
+  "type": "single",
+  "choices": [
+   "大枠",
+   "大綱",
+   "概要",
+   "大筋"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 239,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "祝福、祝賀の言葉を述べる",
+  "type": "single",
+  "choices": [
+   "あげつらう",
+   "かしずく",
+   "ことほぐ",
+   "たまわる",
+   "もうしあげる"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 240,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "聞くつもりはないのに聞こえてしまったこと",
+  "type": "single",
+  "choices": [
+   "耳にタコができる",
+   "小耳に挟む",
+   "耳が早い",
+   "耳につく",
+   "耳を揃える"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 241,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "大目に見ること",
+  "type": "single",
+  "choices": [
+   "ひいき",
+   "目溢し",
+   "甘やかし",
+   "大雑把",
+   "知らん顔"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 242,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "関心が向くようにそれとなく誘う",
+  "type": "single",
+  "choices": [
+   "水を差す",
+   "水を向ける",
+   "打診する",
+   "手を回す"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 243,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "体がひよわなこと",
+  "type": "single",
+  "choices": [
+   "軟弱",
+   "薄弱",
+   "脆弱",
+   "虚弱",
+   "範囲"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 244,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "おおよその内容",
+  "type": "single",
+  "choices": [
+   "概容",
+   "概論",
+   "総論",
+   "総説",
+   "概出"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 245,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "荷物などを運び送ること",
+  "type": "single",
+  "choices": [
+   "宅配",
+   "郵送",
+   "移動",
+   "搬送",
+   "範囲"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 246,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "働きかける目標",
+  "type": "single",
+  "choices": [
+   "対象",
+   "役割",
+   "到達",
+   "標的",
+   "範囲"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 247,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "仕事に取り掛かること",
+  "type": "single",
+  "choices": [
+   "業務",
+   "企業",
+   "労働",
+   "就労",
+   "勤務"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 248,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "根拠のない風説",
+  "type": "single",
+  "choices": [
+   "論評",
+   "風聞",
+   "流言",
+   "風評",
+   "伝聞"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 249,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "すっかり迷って、どうしてよいかわからないこと",
+  "type": "single",
+  "choices": [
+   "論我夢中",
+   "雲散霧消",
+   "五里霧中",
+   "無念無想",
+   "曖昧模糊"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 250,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "気にしてこだわること",
+  "type": "single",
+  "choices": [
+   "拘泥",
+   "拘束",
+   "熟慮",
+   "侮辱",
+   "歎息"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 251,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "むごたらしく、いたましい様",
+  "type": "single",
+  "choices": [
+   "醜悪",
+   "醜態",
+   "辛酸",
+   "酸鼻",
+   "悲愴"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 252,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "少しずつ、段々と変化する様子",
+  "type": "single",
+  "choices": [
+   "漸次",
+   "随時",
+   "暫時",
+   "刹那",
+   "恒久"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 253,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "複雑に入り組むこと",
+  "type": "single",
+  "choices": [
+   "混乱",
+   "乱立",
+   "散乱",
+   "錯綜",
+   "雑把"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 254,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分に有利なように取り計らうこと",
+  "type": "single",
+  "choices": [
+   "我田引水",
+   "泰然自若",
+   "傍若無人",
+   "一意専心",
+   "一挙両得"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 255,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "時間を置かないで行うさま",
+  "type": "single",
+  "choices": [
+   "早速",
+   "順次",
+   "瞬時",
+   "早早",
+   "逐次"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 256,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "あるものをしきりに欲しがること",
+  "type": "single",
+  "choices": [
+   "嘱望",
+   "宿願",
+   "待望",
+   "垂涎",
+   "貪欲"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 257,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "規律や統制のない群集",
+  "type": "single",
+  "choices": [
+   "塞翁が馬",
+   "我田引水",
+   "烏合の衆",
+   "大器晩成",
+   "背水の陣"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 258,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "外の権勢に頼って自分も偉いかのように振る舞うこと",
+  "type": "single",
+  "choices": [
+   "鬼に金棒",
+   "猫を被る",
+   "虎の威を借る狐",
+   "とらぬ狸の皮算用",
+   "虎を描きて狗に類す"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 259,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "処置などが手ぬるいこと",
+  "type": "single",
+  "choices": [
+   "緩慢",
+   "愚鈍",
+   "遅延",
+   "加減",
+   "大概"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 260,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "機械や道具などを使って品物を作ること",
+  "type": "single",
+  "choices": [
+   "製作",
+   "創作",
+   "工作",
+   "製造",
+   "活動"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 261,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "生死を繰り返すこと",
+  "type": "single",
+  "choices": [
+   "再来",
+   "輪廻",
+   "再興",
+   "蘇生",
+   "転生"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 262,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "必ずしも",
+  "type": "single",
+  "choices": [
+   "あまつさえ",
+   "あながち",
+   "いみじくも",
+   "さしずめ",
+   "はなはだ"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 263,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "暇つぶしの無駄話",
+  "type": "single",
+  "choices": [
+   "閑散",
+   "閑談",
+   "市井",
+   "吹聴",
+   "懇談"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 264,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "照れくさく気恥ずかしく感じる",
+  "type": "single",
+  "choices": [
+   "はがゆい",
+   "おもはゆい",
+   "もどかしい",
+   "うしろめたい",
+   "ふがいない"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 265,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "度々で嫌になること",
+  "type": "single",
+  "choices": [
+   "飽食",
+   "食傷",
+   "蚕食",
+   "過食",
+   "徒食"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 266,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "すべきことをわざと怠けてしないこと",
+  "type": "single",
+  "choices": [
+   "横柄",
+   "横着",
+   "不精",
+   "慢心",
+   "杜撰"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 267,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ある物事に心が深くとらわれて離れないこと",
+  "type": "single",
+  "choices": [
+   "夢中",
+   "執着",
+   "健気",
+   "愛着",
+   "固着"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 268,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "生まれつき備わっている資質",
+  "type": "single",
+  "choices": [
+   "気質",
+   "情緒",
+   "天賦",
+   "本性",
+   "分別"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 269,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "広くいきわたること",
+  "type": "single",
+  "choices": [
+   "是認",
+   "普遍",
+   "明瞭",
+   "報道",
+   "典型"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 270,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "他人の批判に批判で言い返すこと",
+  "type": "single",
+  "choices": [
+   "反駁",
+   "弁駁",
+   "応戦",
+   "反目",
+   "逆ねじ"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 271,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "文章に無駄が多くしまりのない様",
+  "type": "single",
+  "choices": [
+   "冗漫",
+   "散漫",
+   "蛇足",
+   "漫然",
+   "放漫"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 272,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事が急に変化する様子",
+  "type": "single",
+  "choices": [
+   "ついでに",
+   "ただちに",
+   "にわかに",
+   "とたんに",
+   "めったに"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 273,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "いかにも利口そうなさま",
+  "type": "single",
+  "choices": [
+   "物知り顔",
+   "さかしげ",
+   "利発",
+   "小利口",
+   "半可通"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 274,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "思わず涙がこぼれた",
+  "type": "single",
+  "choices": [
+   "おざなりの",
+   "怪訝な",
+   "不測の",
+   "不覚の",
+   "不慮の"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 275,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ことのなりゆきやその事情",
+  "type": "single",
+  "choices": [
+   "都合",
+   "進行",
+   "経緯",
+   "状況",
+   "理由"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 276,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "人を丁寧に招くこと",
+  "type": "single",
+  "choices": [
+   "招聘",
+   "貴賓",
+   "招喚",
+   "歓迎",
+   "来迎"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 277,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "不都合なことや過失を隠すためにうわべを装う",
+  "type": "single",
+  "choices": [
+   "あがなう",
+   "はからう",
+   "あしらう",
+   "まかなう",
+   "とりつくろう"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 278,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "実際に調べて検証すること",
+  "type": "single",
+  "choices": [
+   "検証",
+   "経験",
+   "定義",
+   "実験",
+   "解決"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 279,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "神や主君から受けるめぐみ",
+  "type": "single",
+  "choices": [
+   "恩寵",
+   "天恵",
+   "衆生",
+   "天啓",
+   "慈愛"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 280,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "世間に広く通用すること",
+  "type": "single",
+  "choices": [
+   "伝播",
+   "拡大",
+   "流通",
+   "伝染",
+   "有名"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 281,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "その場しのぎに、つじつまを合わせるためのいい加減な言葉",
+  "type": "single",
+  "choices": [
+   "詭弁",
+   "戯言",
+   "方便",
+   "当座しのぎ",
+   "口実"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 282,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "意地を張って、自分の考えを曲げないこと",
+  "type": "single",
+  "choices": [
+   "固執",
+   "拘泥",
+   "我執",
+   "執着",
+   "固辞"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 283,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "目上の人の機嫌を取り、気に入られようとすること",
+  "type": "single",
+  "choices": [
+   "阿付",
+   "追従",
+   "迎合",
+   "傾倒",
+   "心酔"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 284,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "勢いが強く、とどめがたいさま",
+  "type": "single",
+  "choices": [
+   "破竹の勢い",
+   "飛ぶ鳥を落とす勢い",
+   "向かうところ敵なし",
+   "怒髪天を突く",
+   "沛然"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 285,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "表面上は従っているように見せて、内心では反対していること",
+  "type": "single",
+  "choices": [
+   "面従腹背",
+   "羊頭狗肉",
+   "巧言令色",
+   "表裏一体",
+   "二律背反"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 286,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事が一段落し、しばらく動きがなくなること",
+  "type": "single",
+  "choices": [
+   "休止",
+   "小康",
+   "頓挫",
+   "膠着",
+   "安堵"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 287,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "欠点や過ちなどを厳しく咎め、責め立てること",
+  "type": "single",
+  "choices": [
+   "糾弾",
+   "呵責",
+   "譴責",
+   "非難",
+   "詰問"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 288,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の本質がわかり、迷いがなくなること",
+  "type": "single",
+  "choices": [
+   "開眼",
+   "覚醒",
+   "豁然",
+   "悟脱",
+   "会得"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 289,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "時の流れにのる",
+  "type": "single",
+  "choices": [
+   "時をかせぐ",
+   "時は金なり",
+   "時を見る目",
+   "目がさめた時",
+   "時の鐘が鳴る"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 290,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "つつみかくさないさま",
+  "type": "single",
+  "choices": [
+   "露呈",
+   "暴露",
+   "あけすけ",
+   "あか抜け",
+   "つつ抜け"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 291,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "そうするよりほかにない",
+  "type": "single",
+  "choices": [
+   "申し分ない",
+   "ほかならない",
+   "さしさわりない",
+   "よんどころない",
+   "抜き差しならない"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 292,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "なみはずれて程度を超えること",
+  "type": "single",
+  "choices": [
+   "希代",
+   "莫大",
+   "絶大",
+   "奇抜",
+   "法外"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 293,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事のくわしい事情",
+  "type": "single",
+  "choices": [
+   "子細",
+   "明細",
+   "精細",
+   "細部",
+   "細事"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 294,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "勝つ見込みが大きい",
+  "type": "single",
+  "choices": [
+   "清算",
+   "目算",
+   "公算",
+   "概算",
+   "試算",
+   "採算"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 295,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "困難にくじけない強い意志",
+  "type": "single",
+  "choices": [
+   "英気",
+   "気概",
+   "豪気",
+   "気丈",
+   "気勢"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 296,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "再三",
+  "type": "single",
+  "choices": [
+   "時々",
+   "常に",
+   "いつも",
+   "さらに",
+   "たびたび"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 297,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ことばを加えたり言い換えたりしてわかりやすく説明すること",
+  "type": "single",
+  "choices": [
+   "啓発",
+   "喧伝",
+   "示唆",
+   "指南",
+   "敷衍"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 298,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "相手の計略を見抜く",
+  "type": "single",
+  "choices": [
+   "看過する",
+   "看破する",
+   "凝視する",
+   "投資する",
+   "予見する",
+   "露見する"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 299,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "知識が不十分である",
+  "type": "single",
+  "choices": [
+   "うとい",
+   "つたない",
+   "いたらない",
+   "いぶかしい",
+   "おぼつかない"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 300,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "遜色がない",
+  "type": "single",
+  "choices": [
+   "品がない",
+   "欠点がない",
+   "権威がない",
+   "力が及ばない",
+   "見劣りしない"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 301,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "文章を何度も練り直す",
+  "type": "single",
+  "choices": [
+   "加筆する",
+   "修正する",
+   "錬成する",
+   "添削する",
+   "改定する",
+   "推敲する"
+  ],
+  "answer": 5
+ },
+ {
+  "id": 302,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "風情豊かな趣がある",
+  "type": "single",
+  "choices": [
+   "上品な",
+   "華麗な",
+   "優雅な",
+   "繊細な",
+   "素朴な"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 303,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "慌てずゆっくりと事を進めるさま",
+  "type": "single",
+  "choices": [
+   "ようやく",
+   "おいおいに",
+   "おっとりと",
+   "おもむろに",
+   "じっくりと"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 304,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "当を得たことば",
+  "type": "single",
+  "choices": [
+   "金言",
+   "巧言",
+   "至言",
+   "謹言",
+   "格言"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 305,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "厳しく区別すること",
+  "type": "single",
+  "choices": [
+   "鑑別",
+   "差別",
+   "識別",
+   "峻別",
+   "判別",
+   "分別"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 306,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "すみずみまで詳しく知っていること",
+  "type": "single",
+  "choices": [
+   "察知",
+   "知見",
+   "知遇",
+   "通暁",
+   "周知"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 307,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "へりくだる気持ちがないこと",
+  "type": "single",
+  "choices": [
+   "虚勢",
+   "誇示",
+   "自負",
+   "増長",
+   "不遜",
+   "慢心"
+  ],
+  "answer": 4
+ },
+ {
+  "id": 308,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "その場に応じた機転を働かせること",
+  "type": "single",
+  "choices": [
+   "即座",
+   "即断",
+   "即妙",
+   "即興",
+   "即効"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 309,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "裏がないか疑うこと",
+  "type": "single",
+  "choices": [
+   "懐疑",
+   "猜疑",
+   "危惧",
+   "憂慮",
+   "不審"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 310,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "議論の調子や傾向",
+  "type": "single",
+  "choices": [
+   "論旨",
+   "論調",
+   "語調",
+   "筆致",
+   "趣旨"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 311,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "思いがけない幸運",
+  "type": "single",
+  "choices": [
+   "幸運",
+   "吉兆",
+   "僥倖",
+   "福音",
+   "恩恵"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 312,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "大勢が一斉に立ち上がり権力者に反抗すること",
+  "type": "single",
+  "choices": [
+   "決起",
+   "暴動",
+   "蜂起",
+   "反乱",
+   "一揆"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 313,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "相手を思い通りに操ること",
+  "type": "single",
+  "choices": [
+   "支配",
+   "翻弄",
+   "操作",
+   "掌握",
+   "牛耳る"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 314,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "いろいろ合わせて考えること",
+  "type": "single",
+  "choices": [
+   "加算",
+   "加味",
+   "考慮",
+   "勘案",
+   "斟酌"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 315,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "議論のための原案",
+  "type": "single",
+  "choices": [
+   "草案",
+   "腹案",
+   "たたき台",
+   "私案",
+   "原案"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 316,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "目上の人に忠告・助言すること",
+  "type": "single",
+  "choices": [
+   "具申",
+   "進言",
+   "諫言",
+   "提言",
+   "建言"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 317,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の進行を妨げる障害",
+  "type": "single",
+  "choices": [
+   "難路",
+   "隘路",
+   "暗礁",
+   "難関",
+   "障壁"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 318,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "運命の巡り合わせが悪く波乱に満ちていること",
+  "type": "single",
+  "choices": [
+   "数奇",
+   "悲運",
+   "不遇",
+   "薄幸",
+   "災難"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 319,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "する甲斐がないこと",
+  "type": "single",
+  "choices": [
+   "すぎない",
+   "しがない",
+   "つれない",
+   "せんない",
+   "あじけない"
+  ],
+  "answer": 3
+ },
+ {
+  "id": 320,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "皆で話し合って明らかにすること",
+  "type": "single",
+  "choices": [
+   "稟議",
+   "協議",
+   "詮議",
+   "審議",
+   "評議"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 321,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の中心になるもの",
+  "type": "single",
+  "choices": [
+   "骨格",
+   "骨子",
+   "主眼",
+   "要諦",
+   "眼目"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 322,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "常識の範囲を大きく超えていること",
+  "type": "single",
+  "choices": [
+   "絶大",
+   "法外",
+   "希代",
+   "莫大",
+   "途方もない"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 323,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "相手の反対の考え",
+  "type": "single",
+  "choices": [
+   "異議",
+   "異存",
+   "異論",
+   "反論",
+   "反意"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 324,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "不行き届けでけしからぬこと",
+  "type": "single",
+  "choices": [
+   "不遜",
+   "不埒",
+   "不敵",
+   "不逞",
+   "不徳"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 325,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ひそかに尊敬し師と仰ぐこと",
+  "type": "single",
+  "choices": [
+   "私淑",
+   "傾倒",
+   "心酔",
+   "敬慕",
+   "師事"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 326,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "見下して笑うこと",
+  "type": "single",
+  "choices": [
+   "微笑",
+   "嘲笑",
+   "失笑",
+   "苦笑",
+   "冷笑"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 327,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "親しい付き合い",
+  "type": "single",
+  "choices": [
+   "便宜",
+   "よしみ",
+   "懇意",
+   "昵懇",
+   "情実"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 328,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "世間に対する見え方",
+  "type": "single",
+  "choices": [
+   "体裁",
+   "体面",
+   "外聞",
+   "面目",
+   "見栄"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 329,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "時代にもてはやされる人",
+  "type": "single",
+  "choices": [
+   "寵児",
+   "花形",
+   "人気者",
+   "時の人",
+   "寵愛"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 330,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ちらっと見ること",
+  "type": "single",
+  "choices": [
+   "一瞥",
+   "一見",
+   "一望",
+   "一顧",
+   "一目"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 331,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "目上の人に意見を提案すること",
+  "type": "single",
+  "choices": [
+   "具申",
+   "進言",
+   "建議",
+   "答申",
+   "上申"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 332,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "失敗してつまずくこと",
+  "type": "single",
+  "choices": [
+   "蹉跌",
+   "頓挫",
+   "挫折",
+   "失敗",
+   "破綻"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 333,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "睨み合うこと",
+  "type": "single",
+  "choices": [
+   "対立",
+   "反目",
+   "確執",
+   "不和",
+   "軋轢"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 334,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "組織を導く人",
+  "type": "single",
+  "choices": [
+   "領袖",
+   "首魁",
+   "頭領",
+   "首領",
+   "棟梁"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 335,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "議論の進め方",
+  "type": "single",
+  "choices": [
+   "論法",
+   "弁法",
+   "論拠",
+   "論旨",
+   "論調"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 336,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事が衰えていくこと",
+  "type": "single",
+  "choices": [
+   "凋落",
+   "没落",
+   "失墜",
+   "衰退",
+   "零落"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 337,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "よく行き届いていること",
+  "type": "single",
+  "choices": [
+   "周到",
+   "綿密",
+   "周密",
+   "精密",
+   "緻密"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 338,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "過ちを問いただして非難すること",
+  "type": "single",
+  "choices": [
+   "糾弾",
+   "弾劾",
+   "指弾",
+   "詰問",
+   "追及"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 339,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の本質を見抜く優れた眼力",
+  "type": "single",
+  "choices": [
+   "慧眼",
+   "炯眼",
+   "卓見",
+   "達観",
+   "洞察"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 340,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "利口なふりをして出しゃばること",
+  "type": "single",
+  "choices": [
+   "さかしら",
+   "さかしげ",
+   "こざかしい",
+   "利口ぶる",
+   "知ったかぶり"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 341,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "非難し排斥すること",
+  "type": "single",
+  "choices": [
+   "指弾",
+   "糾弾",
+   "弾劾",
+   "排斥",
+   "排撃"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 342,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "出来事などをあらかじめ見通すこと",
+  "type": "single",
+  "choices": [
+   "予見",
+   "予知",
+   "予測",
+   "予感",
+   "先見"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 343,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "くわしい事情",
+  "type": "single",
+  "choices": [
+   "概略",
+   "仔細",
+   "大要",
+   "大筋",
+   "梗概"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 344,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "信用・権威を失うこと",
+  "type": "single",
+  "choices": [
+   "失墜",
+   "失脚",
+   "失権",
+   "喪失",
+   "凋落"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 345,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "肝が据わっていること",
+  "type": "single",
+  "choices": [
+   "豪胆",
+   "剛胆",
+   "大胆",
+   "豪放",
+   "豪気"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 346,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "二つ以上の事柄がぴったり一致すること",
+  "type": "single",
+  "choices": [
+   "符合",
+   "合致",
+   "一致",
+   "適合",
+   "吻合"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 347,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "今にも重大な事態が起こりそうな状況",
+  "type": "single",
+  "choices": [
+   "緊迫",
+   "切迫",
+   "逼迫",
+   "窮迫",
+   "危急"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 348,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "心の中に隠している別の考えや企み",
+  "type": "single",
+  "choices": [
+   "他意",
+   "底意",
+   "魂胆",
+   "思惑",
+   "下心"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 349,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ちょっと振り返ってみること",
+  "type": "single",
+  "choices": [
+   "一顧",
+   "一考",
+   "一瞥",
+   "一見",
+   "顧慮"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 350,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "進んで新しいことをすること",
+  "type": "single",
+  "choices": [
+   "進取",
+   "積極",
+   "先取",
+   "革新",
+   "開拓"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 351,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "残らず全て",
+  "type": "single",
+  "choices": [
+   "悉皆",
+   "悉く",
+   "凡て",
+   "一切",
+   "全般"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 352,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "心配そうな顔つき",
+  "type": "single",
+  "choices": [
+   "愁眉",
+   "愁色",
+   "憂色",
+   "苦渋",
+   "憂慮"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 353,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自由を束縛するもの",
+  "type": "single",
+  "choices": [
+   "桎梏",
+   "足枷",
+   "軛",
+   "枷",
+   "拘束"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 354,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "めったにないこと",
+  "type": "single",
+  "choices": [
+   "稀有",
+   "希代",
+   "珍奇",
+   "異例",
+   "破天荒"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 355,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "伝わり広がっていくこと",
+  "type": "single",
+  "choices": [
+   "伝播",
+   "流布",
+   "浸透",
+   "普及",
+   "蔓延"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 356,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "全く問題にしないこと",
+  "type": "single",
+  "choices": [
+   "度外視",
+   "無視",
+   "看過",
+   "等閑視",
+   "黙殺"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 357,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "詭弁のように理屈をつけること",
+  "type": "single",
+  "choices": [
+   "こじつけ",
+   "詭弁",
+   "屁理屈",
+   "牽強付会",
+   "強弁"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 358,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "心を痛め悩ますこと",
+  "type": "single",
+  "choices": [
+   "腐心",
+   "苦心",
+   "心労",
+   "苦慮",
+   "心痛"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 359,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ためらわずに思い切ってするさま",
+  "type": "single",
+  "choices": [
+   "果断",
+   "英断",
+   "決断",
+   "豪快",
+   "即断"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 360,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "とても苦労すること",
+  "type": "single",
+  "choices": [
+   "難渋",
+   "難儀",
+   "苦渋",
+   "辛酸",
+   "苦心"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 361,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "広く一般の人が見ること",
+  "type": "single",
+  "choices": [
+   "博覧",
+   "展覧",
+   "縦覧",
+   "回覧",
+   "一覧"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 362,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "高いところから広い範囲を見下ろし眺めること",
+  "type": "single",
+  "choices": [
+   "鳥瞰",
+   "俯瞰",
+   "展望",
+   "一望",
+   "眺望"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 363,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "次第に減っていくこと",
+  "type": "single",
+  "choices": [
+   "逓減",
+   "漸減",
+   "減退",
+   "縮小",
+   "低減"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 364,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "度を超えた贅沢な暮らし",
+  "type": "single",
+  "choices": [
+   "奢侈",
+   "贅沢",
+   "豪奢",
+   "浪費",
+   "華美"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 365,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "二等分すること",
+  "type": "single",
+  "choices": [
+   "折半",
+   "均等",
+   "等分",
+   "分割",
+   "按分"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 366,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "くどくど言うこと",
+  "type": "single",
+  "choices": [
+   "御託",
+   "能書き",
+   "講釈",
+   "長広舌",
+   "弁舌"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 367,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "苦しんでうめくこと",
+  "type": "single",
+  "choices": [
+   "呻吟",
+   "苦悩",
+   "煩悶",
+   "苦吟",
+   "苦渋"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 368,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ものがゆらゆら揺れること",
+  "type": "single",
+  "choices": [
+   "たゆたう",
+   "そよぐ",
+   "はためく",
+   "きらめく",
+   "ゆらめく"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 369,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "間柄が親しいこと",
+  "type": "single",
+  "choices": [
+   "昵懇",
+   "懇意",
+   "懇親",
+   "親密",
+   "懇篤"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 370,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "脆くて弱いこと",
+  "type": "single",
+  "choices": [
+   "脆弱",
+   "虚弱",
+   "軟弱",
+   "薄弱",
+   "貧弱"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 371,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の大まかな話",
+  "type": "single",
+  "choices": [
+   "大概",
+   "大要",
+   "概略",
+   "大筋",
+   "梗概"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 372,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "事情を汲み取って手加減すること",
+  "type": "single",
+  "choices": [
+   "斟酌",
+   "酌量",
+   "配慮",
+   "忖度",
+   "勘案"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 373,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "社会全体の流れ",
+  "type": "single",
+  "choices": [
+   "趨勢",
+   "大勢",
+   "情勢",
+   "潮流",
+   "動向"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 374,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "拠り所にすること",
+  "type": "single",
+  "choices": [
+   "依拠",
+   "準拠",
+   "拠点",
+   "典拠",
+   "立脚"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 375,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "次第につけあがること",
+  "type": "single",
+  "choices": [
+   "増長",
+   "慢心",
+   "思い上がり",
+   "高慢",
+   "傲慢"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 376,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "姿・形を似せてだますこと",
+  "type": "single",
+  "choices": [
+   "扮する",
+   "擬態する",
+   "変装する",
+   "模する",
+   "化ける"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 377,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "集中して取り組むこと",
+  "type": "single",
+  "choices": [
+   "傾注",
+   "傾倒",
+   "没頭",
+   "専心",
+   "精進"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 378,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "取り越し苦労、無用の心配",
+  "type": "single",
+  "choices": [
+   "杞憂",
+   "懸念",
+   "危惧",
+   "憂慮",
+   "取り越し苦労"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 379,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "人家が集まっているところ",
+  "type": "single",
+  "choices": [
+   "市井",
+   "巷",
+   "市中",
+   "街頭",
+   "市街"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 380,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "見聞が狭く知識に乏しいこと",
+  "type": "single",
+  "choices": [
+   "寡聞",
+   "浅学",
+   "不勉強",
+   "無知",
+   "浅薄"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 381,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "武術などを教え示すこと",
+  "type": "single",
+  "choices": [
+   "指南",
+   "教授",
+   "指導",
+   "伝授",
+   "手ほどき"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 382,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "細かく気を配り曖昧な所がないこと",
+  "type": "single",
+  "choices": [
+   "克明",
+   "綿密",
+   "丹念",
+   "精緻",
+   "詳細"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 383,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "なりふり構わず懸命にことにあたること",
+  "type": "single",
+  "choices": [
+   "おおわらわ",
+   "大車輪",
+   "躍起",
+   "必死",
+   "懸命"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 384,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "慎みの態度で従うこと",
+  "type": "single",
+  "choices": [
+   "恭順",
+   "従順",
+   "帰順",
+   "服従",
+   "恭敬"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 385,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "子供が機嫌を悪くして泣くこと",
+  "type": "single",
+  "choices": [
+   "むずかる",
+   "ぐずる",
+   "すねる",
+   "だだをこねる",
+   "ふてくされる"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 386,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "能力や量が大きすぎて十分に活用できないこと",
+  "type": "single",
+  "choices": [
+   "もてあます",
+   "はにかむ",
+   "いなす",
+   "あしらう",
+   "こなす"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 387,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "目に見える形で現れること",
+  "type": "single",
+  "choices": [
+   "顕現",
+   "出現",
+   "発現",
+   "具現",
+   "体現"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 388,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事が順調に進むさま",
+  "type": "single",
+  "choices": [
+   "はかばかしい",
+   "めざましい",
+   "すこやか",
+   "つつがない",
+   "順調"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 389,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "大まかな趣旨",
+  "type": "single",
+  "choices": [
+   "大意",
+   "大要",
+   "概要",
+   "趣旨",
+   "要旨"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 390,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "熱を入れて説得力あるように話すこと",
+  "type": "single",
+  "choices": [
+   "雄弁",
+   "能弁",
+   "達弁",
+   "弁舌",
+   "論弁"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 391,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "話し合いがまとまり双方が合意すること",
+  "type": "single",
+  "choices": [
+   "妥結",
+   "合意",
+   "和解",
+   "決着",
+   "調印"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 392,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物語の大体の内容や様子",
+  "type": "single",
+  "choices": [
+   "あらまし",
+   "概要",
+   "大筋",
+   "梗概",
+   "粗筋"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 393,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "珍しくて普通とは異なっていること",
+  "type": "single",
+  "choices": [
+   "珍奇",
+   "奇妙",
+   "希代",
+   "奇抜",
+   "異様"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 394,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "立派に見せかけること",
+  "type": "single",
+  "choices": [
+   "粉飾",
+   "虚飾",
+   "美化",
+   "誇張",
+   "潤色"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 395,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "あちこちに言いふらすこと",
+  "type": "single",
+  "choices": [
+   "吹聴",
+   "喧伝",
+   "流布",
+   "公言",
+   "言明"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 396,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "文章の下書き",
+  "type": "single",
+  "choices": [
+   "草案",
+   "草稿",
+   "原案",
+   "下書き",
+   "腹案"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 397,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "取り立てて言うほどでもなくわずかであること",
+  "type": "single",
+  "choices": [
+   "些少",
+   "僅少",
+   "軽微",
+   "微小",
+   "寡少"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 398,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "事情を汲み取って手加減すること（酌量）",
+  "type": "single",
+  "choices": [
+   "酌量",
+   "斟酌",
+   "勘案",
+   "考慮",
+   "忖度"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 399,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "考えが浅はかなさま",
+  "type": "single",
+  "choices": [
+   "浅慮",
+   "浅薄",
+   "軽率",
+   "短慮",
+   "思慮不足"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 400,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "他人の不幸が人ごとではなく思われること",
+  "type": "single",
+  "choices": [
+   "身につまされる",
+   "胸を痛める",
+   "他人事でない",
+   "同情する",
+   "心を痛める"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 401,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分の能力を信じて抱く誇り",
+  "type": "single",
+  "choices": [
+   "矜持",
+   "自負",
+   "自尊心",
+   "プライド",
+   "自恃"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 402,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "すぐ役立つよう所定の部位に詰め込むこと",
+  "type": "single",
+  "choices": [
+   "装填",
+   "充填",
+   "装着",
+   "搭載",
+   "補填"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 403,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ずうずうしいこと",
+  "type": "single",
+  "choices": [
+   "厚顔",
+   "鉄面皮",
+   "厚かましい",
+   "図太い",
+   "不敵"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 404,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ものの実質的な価値が下がること",
+  "type": "single",
+  "choices": [
+   "目減り",
+   "減価",
+   "目劣り",
+   "低下",
+   "目滅"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 405,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分勝手にはねまわること",
+  "type": "single",
+  "choices": [
+   "跳梁",
+   "横行",
+   "跳梁跋扈",
+   "暗躍",
+   "徘徊"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 406,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "人を威圧するような態度",
+  "type": "single",
+  "choices": [
+   "居丈高",
+   "高圧的",
+   "横柄",
+   "傲岸",
+   "尊大"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 407,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "栄えたり衰えたりすること",
+  "type": "single",
+  "choices": [
+   "消長",
+   "盛衰",
+   "興亡",
+   "浮沈",
+   "栄枯"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 408,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分の信ずるところを遠慮せずに言うこと",
+  "type": "single",
+  "choices": [
+   "直言",
+   "直諫",
+   "苦言",
+   "直談",
+   "率直"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 409,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "結局のところ、今のところ",
+  "type": "single",
+  "choices": [
+   "さしずめ",
+   "つまるところ",
+   "結局",
+   "ひとまず",
+   "当面"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 410,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事を進めること",
+  "type": "single",
+  "choices": [
+   "進行",
+   "進捗",
+   "推進",
+   "進展",
+   "遂行"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 411,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "旅行で一定期間留まること",
+  "type": "single",
+  "choices": [
+   "逗留",
+   "滞在",
+   "滞留",
+   "駐留",
+   "宿泊"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 412,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "やりがいがないこと",
+  "type": "single",
+  "choices": [
+   "徒労",
+   "無駄骨",
+   "空回り",
+   "骨折り損",
+   "無益"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 413,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "際立って他より優れていること",
+  "type": "single",
+  "choices": [
+   "出色",
+   "傑出",
+   "抜群",
+   "出群",
+   "秀逸"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 414,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "目をこすってよく見ること",
+  "type": "single",
+  "choices": [
+   "刮目",
+   "注視",
+   "凝視",
+   "瞠目",
+   "熟視"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 415,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "記憶力が非常に優れていること",
+  "type": "single",
+  "choices": [
+   "強記",
+   "博覧強記",
+   "博識",
+   "健忘",
+   "博学"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 416,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "動作が素早くきびきびと働く様子",
+  "type": "single",
+  "choices": [
+   "かいがいしい",
+   "こまめ",
+   "まめまめしい",
+   "せかせか",
+   "きびきび"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 417,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "意見を出し合って物事を決めること",
+  "type": "single",
+  "choices": [
+   "合議",
+   "協議",
+   "評議",
+   "審議",
+   "議論"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 418,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "役所などに勤めること、公の職に就くこと",
+  "type": "single",
+  "choices": [
+   "出仕",
+   "奉職",
+   "就任",
+   "任官",
+   "出勤"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 419,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "思いついたまま",
+  "type": "single",
+  "choices": [
+   "恣意",
+   "独断",
+   "勝手",
+   "気まぐれ",
+   "任意"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 420,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "理論や判断に間違いがないこと",
+  "type": "single",
+  "choices": [
+   "無謬",
+   "正確",
+   "完全",
+   "正当",
+   "的確"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 421,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "行動を起こすようにあおること",
+  "type": "single",
+  "choices": [
+   "扇動",
+   "煽動",
+   "教唆",
+   "示唆",
+   "誘導"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 422,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "尊敬して従うこと",
+  "type": "single",
+  "choices": [
+   "心服",
+   "傾倒",
+   "帰依",
+   "敬服",
+   "心酔"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 423,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "そうなることを避けられないこと",
+  "type": "single",
+  "choices": [
+   "必至",
+   "必然",
+   "不可避",
+   "必定",
+   "当然"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 424,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "生まれつき持った才能",
+  "type": "single",
+  "choices": [
+   "資質",
+   "素質",
+   "天賦",
+   "天分",
+   "才能"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 425,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "許された範囲以上のことをすること",
+  "type": "single",
+  "choices": [
+   "僭越",
+   "越権",
+   "出過ぎた",
+   "分不相応",
+   "傲慢"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 426,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "戦って傷をつけること",
+  "type": "single",
+  "choices": [
+   "殺傷",
+   "傷害",
+   "殺害",
+   "負傷",
+   "加害"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 427,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "目上の人に忠告すること",
+  "type": "single",
+  "choices": [
+   "諫言",
+   "苦言",
+   "進言",
+   "直言",
+   "忠言"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 428,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "ひとつのつまらないもの",
+  "type": "single",
+  "choices": [
+   "一介",
+   "一庶民",
+   "一凡人",
+   "末端",
+   "取るに足らない"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 429,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "差し引きゼロ",
+  "type": "single",
+  "choices": [
+   "相殺",
+   "帳消し",
+   "均衡",
+   "清算",
+   "埋め合わせ"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 430,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事の全体を見渡した場合の状況",
+  "type": "single",
+  "choices": [
+   "大局",
+   "全局",
+   "大勢",
+   "全体像",
+   "概況"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 431,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "人に応対する態度",
+  "type": "single",
+  "choices": [
+   "物腰",
+   "態度",
+   "身のこなし",
+   "立ち居振る舞い",
+   "物言い"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 432,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "土地がやせていて作物が育たないこと",
+  "type": "single",
+  "choices": [
+   "不毛",
+   "荒廃",
+   "痩地",
+   "枯渇",
+   "不作"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 433,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "思いがけなく出会うこと",
+  "type": "single",
+  "choices": [
+   "邂逅",
+   "遭遇",
+   "再会",
+   "出会い",
+   "巡り会い"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 434,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "逃げ走ること",
+  "type": "single",
+  "choices": [
+   "遁走",
+   "逃走",
+   "敗走",
+   "逃亡",
+   "退散"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 435,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "仲間に入って計画に関わること",
+  "type": "single",
+  "choices": [
+   "参画",
+   "参加",
+   "参与",
+   "関与",
+   "加担"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 436,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "見破る、計画を見抜くこと",
+  "type": "single",
+  "choices": [
+   "看破",
+   "看過",
+   "見抜く",
+   "喝破",
+   "洞察"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 437,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "優れた意見",
+  "type": "single",
+  "choices": [
+   "卓見",
+   "卓説",
+   "達見",
+   "卓論",
+   "達識"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 438,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "世に警鐘を鳴らし人々を導く人",
+  "type": "single",
+  "choices": [
+   "木鐸",
+   "先達",
+   "指導者",
+   "啓蒙者",
+   "警世家"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 439,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "助けとなり役に立つこと",
+  "type": "single",
+  "choices": [
+   "資する",
+   "寄与する",
+   "貢献する",
+   "役立つ",
+   "益する"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 440,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "仲が悪く対立していること",
+  "type": "single",
+  "choices": [
+   "確執",
+   "不和",
+   "軋轢",
+   "反目",
+   "対立"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 441,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "夢中になっておぼれること",
+  "type": "single",
+  "choices": [
+   "耽溺",
+   "溺愛",
+   "没頭",
+   "傾倒",
+   "惑溺"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 442,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "全部残らず（度合いを表す語）",
+  "type": "single",
+  "choices": [
+   "悉く",
+   "概ね",
+   "大方",
+   "凡そ",
+   "ほとんど"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 443,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "非常にありがたいこと",
+  "type": "single",
+  "choices": [
+   "幸甚",
+   "恐悦",
+   "光栄",
+   "幸運",
+   "感激"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 444,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "強く求めること",
+  "type": "single",
+  "choices": [
+   "希求",
+   "渇望",
+   "切望",
+   "熱望",
+   "待望"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 445,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "心の中でのおおまかな見積もり",
+  "type": "single",
+  "choices": [
+   "胸算用",
+   "腹積もり",
+   "目算",
+   "思惑",
+   "勘定"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 446,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "もめごと",
+  "type": "single",
+  "choices": [
+   "悶着",
+   "いざこざ",
+   "揉め事",
+   "紛糾",
+   "諍い"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 447,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分より優れている相手を妬ましく思うこと",
+  "type": "single",
+  "choices": [
+   "そねむ",
+   "ねたむ",
+   "やっかむ",
+   "嫉む",
+   "僻む"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 448,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "最初から続けて組織に属していること",
+  "type": "single",
+  "choices": [
+   "生え抜き",
+   "古参",
+   "叩き上げ",
+   "プロパー",
+   "譜代"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 449,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "些細なことを言い立てること",
+  "type": "single",
+  "choices": [
+   "あげつらう",
+   "けなす",
+   "こき下ろす",
+   "論難する",
+   "難癖をつける"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 450,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "苦しめ悩ますこと",
+  "type": "single",
+  "choices": [
+   "苛む",
+   "悩ます",
+   "苦しめる",
+   "虐げる",
+   "痛めつける"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 451,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "心に深く刻み付けること",
+  "type": "single",
+  "choices": [
+   "銘じる",
+   "刻む",
+   "肝に銘じる",
+   "留める",
+   "念じる"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 452,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "激しく争うこと",
+  "type": "single",
+  "choices": [
+   "しのぎを削る",
+   "火花を散らす",
+   "丁々発止",
+   "鍔迫り合い",
+   "角逐する"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 453,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "でっち上げること",
+  "type": "single",
+  "choices": [
+   "捏造",
+   "偽造",
+   "虚構",
+   "創作",
+   "粉飾"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 454,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "好ましくないことがはびこること",
+  "type": "single",
+  "choices": [
+   "蔓延",
+   "横行",
+   "流行",
+   "氾濫",
+   "跋扈"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 455,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分の地位や名声などの安全を図ること",
+  "type": "single",
+  "choices": [
+   "保身",
+   "自衛",
+   "防衛",
+   "保全",
+   "自己保身"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 456,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事をうまく処置すること",
+  "type": "single",
+  "choices": [
+   "善処",
+   "処理",
+   "対処",
+   "処置",
+   "措置"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 457,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "自分の権限だけでは決定できないことについて承認を得ること",
+  "type": "single",
+  "choices": [
+   "稟議",
+   "決裁",
+   "裁可",
+   "協議",
+   "決議"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 458,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "物事を恐れず思い切って行うさま",
+  "type": "single",
+  "choices": [
+   "大胆",
+   "豪胆",
+   "果敢",
+   "勇敢",
+   "不敵"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 459,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "うっかり忘れること",
+  "type": "single",
+  "choices": [
+   "失念",
+   "忘却",
+   "度忘れ",
+   "物忘れ",
+   "忘失"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 460,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "だんだん増えていくこと",
+  "type": "single",
+  "choices": [
+   "漸増",
+   "増加",
+   "逓増",
+   "増大",
+   "増長"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 461,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "わけが分からず納得がいかない様子",
+  "type": "single",
+  "choices": [
+   "怪訝",
+   "不審",
+   "腑に落ちない",
+   "合点がいかない",
+   "疑問"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 462,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "満足せずどこまでも止まないこと",
+  "type": "single",
+  "choices": [
+   "飽くなき",
+   "尽きせぬ",
+   "果てしない",
+   "際限ない",
+   "貪欲な"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 463,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "対立・矛盾するものが互いに勝とうと争うこと",
+  "type": "single",
+  "choices": [
+   "相克",
+   "葛藤",
+   "対立",
+   "抗争",
+   "せめぎ合い"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 464,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "あわれに思うこと",
+  "type": "single",
+  "choices": [
+   "憐憫",
+   "同情",
+   "哀れみ",
+   "慈悲",
+   "惻隠"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 465,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "人が大勢集まり押し合うようにしていること",
+  "type": "single",
+  "choices": [
+   "ひしめく",
+   "群がる",
+   "溢れる",
+   "込み合う",
+   "殺到する"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 466,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "はかりごとを巡らせること",
+  "type": "single",
+  "choices": [
+   "画策",
+   "策謀",
+   "策動",
+   "謀略",
+   "企図"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 467,
+  "genre": "vocab",
+  "passage": null,
+  "instruction": "下線部分のことばの意味を考え、意味が最もよく合致するものを1つ選びなさい。",
+  "prompt": "取るに足りないほどつまらないこと",
+  "type": "single",
+  "choices": [
+   "些末",
+   "些細",
+   "微細",
+   "枝葉末節",
+   "つまらない"
+  ],
+  "answer": 0
  }
 ];
