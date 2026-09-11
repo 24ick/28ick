@@ -7535,5 +7535,917 @@ const QUESTIONS = [
    "つまらない"
   ],
   "answer": 0
+ },
+ {
+  "id": 468,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "手柄を［　　］する",
+  "type": "single",
+  "choices": [
+   "誇示",
+   "自慢",
+   "吹聴",
+   "喧伝",
+   "公言"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 469,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "昔を思って［　　］にふける",
+  "type": "single",
+  "choices": [
+   "追憶",
+   "郷愁",
+   "感慨",
+   "感傷",
+   "回顧"
+  ],
+  "answer": 2
+ },
+ {
+  "id": 470,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "好機を［　　］",
+  "type": "single",
+  "choices": [
+   "逸する",
+   "失する",
+   "取り逃す",
+   "見逃す",
+   "見送る"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 471,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "学歴［　　］を改める",
+  "type": "single",
+  "choices": [
+   "偏重",
+   "重視",
+   "偏見",
+   "偏向",
+   "尊重"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 472,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "賛成の［　　］が高まる",
+  "type": "single",
+  "choices": [
+   "機運",
+   "気運",
+   "世論",
+   "風潮",
+   "機会"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 473,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "長話が［　　］する",
+  "type": "single",
+  "choices": [
+   "辟易",
+   "閉口",
+   "困惑",
+   "難儀",
+   "苦慮"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 474,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "［　　］の的になる",
+  "type": "single",
+  "choices": [
+   "羨望",
+   "垂涎",
+   "憧憬",
+   "渇望",
+   "注目"
+  ],
+  "answer": 1
+ },
+ {
+  "id": 475,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "印象派の流れを［　　］",
+  "type": "single",
+  "choices": [
+   "汲む",
+   "受ける",
+   "継ぐ",
+   "踏まえる",
+   "倣う"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 476,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "倒産間際の［　　］を図る",
+  "type": "single",
+  "choices": [
+   "再興",
+   "復興",
+   "再建",
+   "立て直し",
+   "回復"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 477,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "法の網を［　　］",
+  "type": "single",
+  "choices": [
+   "潜る",
+   "かいくぐる",
+   "逃れる",
+   "免れる",
+   "抜ける"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 478,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "言葉尻を［　　］",
+  "type": "single",
+  "choices": [
+   "とらえる",
+   "とがめる",
+   "咎める",
+   "責める",
+   "つかまえる"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 479,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "口の［　　］にのぼる",
+  "type": "single",
+  "choices": [
+   "端",
+   "先",
+   "中",
+   "間",
+   "内"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 480,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "熱を［　　］返す",
+  "type": "single",
+  "choices": [
+   "盛り",
+   "吹き",
+   "取り",
+   "持ち",
+   "巻き"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 481,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "機会を［　　］",
+  "type": "single",
+  "choices": [
+   "設ける",
+   "作る",
+   "与える",
+   "提供する",
+   "用意する"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 482,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "悪事のからくりを［　　］した",
+  "type": "single",
+  "choices": [
+   "看破",
+   "喝破",
+   "見破",
+   "暴露",
+   "摘発"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 483,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "真相研究が［　　］の課題である",
+  "type": "single",
+  "choices": [
+   "喫緊",
+   "緊急",
+   "焦眉",
+   "当面",
+   "火急"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 484,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "苦言を［　　］",
+  "type": "single",
+  "choices": [
+   "呈する",
+   "言う",
+   "述べる",
+   "与える",
+   "示す"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 485,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "大自然に［　　］を抱く",
+  "type": "single",
+  "choices": [
+   "畏敬",
+   "畏怖",
+   "敬服",
+   "尊崇",
+   "崇敬"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 486,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "剣術の［　　］を極める",
+  "type": "single",
+  "choices": [
+   "奥義",
+   "極意",
+   "神髄",
+   "真髄",
+   "秘伝"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 487,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "人情の［　　］に触れる",
+  "type": "single",
+  "choices": [
+   "機微",
+   "機知",
+   "深奥",
+   "妙味",
+   "情趣"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 488,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "美術の［　　］を集める",
+  "type": "single",
+  "choices": [
+   "粋",
+   "精華",
+   "神髄",
+   "真髄",
+   "精髄"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 489,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "監督を［　　］する",
+  "type": "single",
+  "choices": [
+   "更迭",
+   "罷免",
+   "解任",
+   "更任",
+   "交代"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 490,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "失敗を［　　］する",
+  "type": "single",
+  "choices": [
+   "糊塗",
+   "隠蔽",
+   "取り繕い",
+   "弁解",
+   "言い訳"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 491,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "造詣が［　　］",
+  "type": "single",
+  "choices": [
+   "深い",
+   "厚い",
+   "広い",
+   "豊かな",
+   "高い"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 492,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "職権を［　　］する",
+  "type": "single",
+  "choices": [
+   "行使",
+   "発動",
+   "執行",
+   "乱用",
+   "利用"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 493,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "彼はこの研究の［　　］だ",
+  "type": "single",
+  "choices": [
+   "草分け",
+   "先駆者",
+   "パイオニア",
+   "開拓者",
+   "元祖"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 494,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "相手方と［　　］を通じる",
+  "type": "single",
+  "choices": [
+   "気脈",
+   "連絡",
+   "意思",
+   "呼吸",
+   "連携"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 495,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "なお［　　］の望みを抱く",
+  "type": "single",
+  "choices": [
+   "一縷",
+   "一抹",
+   "僅か",
+   "微か",
+   "一片"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 496,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "審議が［　　］進まない",
+  "type": "single",
+  "choices": [
+   "遅々として",
+   "遅滞して",
+   "遅延して",
+   "渋滞して",
+   "停滞して"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 497,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "失地を［　　］する",
+  "type": "single",
+  "choices": [
+   "回復",
+   "奪還",
+   "挽回",
+   "復旧",
+   "奪回"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 498,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "本懐を［　　］",
+  "type": "single",
+  "choices": [
+   "遂げる",
+   "果たす",
+   "成す",
+   "達成する",
+   "成し遂げる"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 499,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "一族の［　　］を保つ",
+  "type": "single",
+  "choices": [
+   "命脈",
+   "血脈",
+   "系譜",
+   "存続",
+   "系統"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 500,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "好評を［　　］",
+  "type": "single",
+  "choices": [
+   "博する",
+   "獲得する",
+   "享受する",
+   "勝ち取る",
+   "得る"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 501,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "世間体を［　　］",
+  "type": "single",
+  "choices": [
+   "繕う",
+   "取り繕う",
+   "整える",
+   "飾る",
+   "守る"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 502,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "友人がなくなり［　　］の念に絶えない",
+  "type": "single",
+  "choices": [
+   "哀惜",
+   "哀悼",
+   "追悼",
+   "悲嘆",
+   "惜別"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 503,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "政権が［　　］した",
+  "type": "single",
+  "choices": [
+   "瓦解",
+   "崩壊",
+   "崩落",
+   "決壊",
+   "解体"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 504,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "名簿と名前を［　　］",
+  "type": "single",
+  "choices": [
+   "つき合わせる",
+   "照らし合わせる",
+   "見比べる",
+   "対照する",
+   "確認する"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 505,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "［　　］を排して成功した",
+  "type": "single",
+  "choices": [
+   "万難",
+   "困難",
+   "苦難",
+   "障害",
+   "難関"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 506,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "陰謀に［　　］する",
+  "type": "single",
+  "choices": [
+   "加担",
+   "荷担",
+   "加勢",
+   "関与",
+   "共謀"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 507,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "通院に［　　］仲直りした",
+  "type": "single",
+  "choices": [
+   "かこつけて",
+   "ことよせて",
+   "託けて",
+   "乗じて",
+   "便乗して"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 508,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "［　　］を施す",
+  "type": "single",
+  "choices": [
+   "しつらい",
+   "装飾",
+   "設え",
+   "調度",
+   "細工"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 509,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "善後策を［　　］",
+  "type": "single",
+  "choices": [
+   "講ずる",
+   "講じる",
+   "施す",
+   "取る",
+   "練る"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 510,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "命運が［　　］",
+  "type": "single",
+  "choices": [
+   "尽きる",
+   "絶える",
+   "途絶える",
+   "終わる",
+   "果てる"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 511,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "［　　］を払しょくする",
+  "type": "single",
+  "choices": [
+   "疑念",
+   "疑惑",
+   "不安",
+   "懸念",
+   "疑心"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 512,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "折を［　　］、訪問する",
+  "type": "single",
+  "choices": [
+   "見て",
+   "見計らって",
+   "窺って",
+   "伺って",
+   "計らって"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 513,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "見積書を［　　］する",
+  "type": "single",
+  "choices": [
+   "精査",
+   "査定",
+   "審査",
+   "検分",
+   "吟味"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 514,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "血気に［　　］若者",
+  "type": "single",
+  "choices": [
+   "はやる",
+   "逸る",
+   "焦る",
+   "勇む",
+   "奮る"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 515,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "時代の［　　］に答える",
+  "type": "single",
+  "choices": [
+   "要請",
+   "要望",
+   "要求",
+   "需要",
+   "期待"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 516,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "にべにもなく［　　］",
+  "type": "single",
+  "choices": [
+   "断る",
+   "拒む",
+   "はねつける",
+   "拒絶する",
+   "突っぱねる"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 517,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "［　　］をかける",
+  "type": "single",
+  "choices": [
+   "嫌疑",
+   "疑い",
+   "疑惑",
+   "容疑",
+   "猜疑"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 518,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "チームワークの悪さを［　　］した",
+  "type": "single",
+  "choices": [
+   "露呈",
+   "露見",
+   "暴露",
+   "発覚",
+   "表面化"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 519,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "［　　］を発揮する",
+  "type": "single",
+  "choices": [
+   "真価",
+   "実力",
+   "本領",
+   "能力",
+   "力量"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 520,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "真相を［　　］に物語っている",
+  "type": "single",
+  "choices": [
+   "如実",
+   "端的",
+   "明白",
+   "克明",
+   "顕著"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 521,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "受賞式を［　　］に一連の行事が始まった",
+  "type": "single",
+  "choices": [
+   "皮切り",
+   "きっかけ",
+   "発端",
+   "序盤",
+   "手始め"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 522,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "［　　］の不安が残る",
+  "type": "single",
+  "choices": [
+   "一抹",
+   "一縷",
+   "若干",
+   "幾分",
+   "僅少"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 523,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "忠告に［　　］に耳を傾ける",
+  "type": "single",
+  "choices": [
+   "謙虚",
+   "素直",
+   "真摯",
+   "殊勝",
+   "謙遜"
+  ],
+  "answer": 0
+ },
+ {
+  "id": 524,
+  "genre": "blank",
+  "passage": null,
+  "instruction": "つぎの文の意味やことばの使い方から考えて、[　　]に入れる語句として最も適切なものを1つ選びなさい。",
+  "prompt": "官位を［　　］する",
+  "type": "single",
+  "choices": [
+   "剥奪",
+   "没収",
+   "取消",
+   "罷免",
+   "喪失"
+  ],
+  "answer": 0
  }
 ];
